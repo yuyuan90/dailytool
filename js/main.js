@@ -75,7 +75,7 @@ $(document).ready(function(){
             var content = $('#profile-content').val();
             $('#profile-content').hide();
             $('#profile').append('<div class="showprofile"></div>');
-            $('.showprofile').text(content).append(' <img class="change" src="../imgs/pen.png">');
+            $('.showprofile').text(content).append('<img class="change" src="../imgs/pen.png">');
         };   
         $('.change').on('click', function(){
             $('.showprofile').hide();
