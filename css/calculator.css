@@ -1,0 +1,152 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
+}
+#gradient{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    background:linear-gradient(to bottom right, #ddd6f3, #faaca8);
+}
+#navbar-header{
+    width: 1500px;
+    height: 48px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0,.7);
+    text-align: center;
+    padding-left: 110px;
+    font-family: "Arial", sans-serif;
+    z-index: 1;
+}
+#navbar-left{
+    width: 150px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#navbar-left img{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: -5px;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#navbar-left a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+    color: white;
+}
+#navbar-right{
+    width: 320px;
+    height: 48px;
+    position: absolute;
+    top: 0px;
+    left: 960px;
+}
+#navbar-right ul{
+    width: 280px;
+    height: 48px;
+    list-style-type: none;
+    margin: 0px auto;
+}
+#navbar-right li{
+    display: inline-block;
+    width: 120px;
+    height: 48px;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    margin-left: -5px;
+    box-sizing: border-box;
+    padding-top: 11px;
+}
+#navbar-right li a{
+    width: 120px;
+    height: 48px;
+    text-decoration: none;
+    color: white;
+}
+#navbar-right li a:hover{
+    cursor: pointer;
+}
+.container{
+    width: 280px;
+    height: 470px;
+    position: relative;
+    margin: 8% auto;
+    box-shadow: 1px 1px 9px 5px rgba(255, 255, 255,0.9);
+    border-radius: 5px;
+    padding: 0;
+}
+#display{
+    width: 280px;
+    height: 120px;
+    background: rgb(254,254,254);
+    border-radius: 5px 5px 0 0;
+    border-top: 1px solid rgb(238,238,238);
+}
+#result{
+    width: 99%;
+    height: 96%;
+    color: white;
+    font-size: 53px;
+    letter-spacing: -1px;
+    position: relative;
+    background: rgb(254,254,254); 
+    text-align: right;
+    outline: none;
+    border: 0;
+    color:rgba(0,21,71,0.8);
+    border-radius: 5px 5px 0 0;
+}
+#keyboard{
+    width: 100%;
+    position: relative;
+}
+p{
+    margin: 0;
+}
+#keyboard input{
+    width: 70px;
+    height: 70px;
+    border: 0;
+    background: rgb(254,254,254);
+    font-size: 24px;
+    color: rgba(0,0,0,0.5); 
+    cursor: pointer;
+    border:1px solid rgb(238,238,238);
+    outline: none;  
+}
+#keyboard input:hover{
+    border: 2px solid rgb(228, 196,25);   
+}
+#down-left-radius{
+    border-radius: 0 0 0 5px; 
+}
+#keyboard p:first-child input{
+   background: rgb(245, 245, 245);
+}
+#keyboard p input:last-child{
+    background:rgba(0,21,71, 0.9);
+}
+#keyboard #equal{
+    border-radius: 0 0 5px 0;
+    background: rgb(228, 196,25);
+}
+#row5 input:nth-child(2), #row5 input:nth-child(3){
+    background:rgb(245, 245, 245); 
+    
+} 
+.active{
+    border-bottom: 4px solid rgb(255, 228, 1);
+}

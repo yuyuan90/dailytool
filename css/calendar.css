@@ -1,0 +1,271 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+#navbar-header{
+    width: 1500px;
+    height: 48px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0,.7);
+    text-align: center;
+    padding-left: 110px;
+    font-family: "Arial", sans-serif;
+    z-index: 1;
+}
+#navbar-left{
+    width: 150px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#navbar-left img{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: -5px;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#navbar-left a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+    color: white;
+}
+#navbar-right{
+    width: 320px;
+    height: 48px;
+    position: absolute;
+    top: 0px;
+    left: 960px;
+}
+#navbar-right ul{
+    width: 280px;
+    height: 48px;
+    list-style-type: none;
+    margin: 16px auto 0;
+}
+#navbar-right li{
+    display: inline-block;
+    width: 120px;
+    height: 48px;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    margin-left: -5px;
+    box-sizing: border-box;
+    padding-top: 11px;
+}
+#navbar-right li a{
+    width: 120px;
+    height: 48px;
+    text-decoration: none;
+    color: white;
+}
+#navbar-right li a:hover{
+    cursor: pointer;
+}
+#container{
+    width: 1200px;
+    height: 600px;
+    position: relative;
+    margin: 60px auto auto;
+}
+ul{
+    list-style-type: none;
+    width: 1160px;
+    height: 660px;
+    position: relative;
+    top: -16px;
+    left: 0;
+}
+#months li{
+    visibility: hidden;
+}
+#months #April{
+    visibility:visible;
+}
+.left-cal{
+    width: 185px;
+    height: 180px;
+    position:absolute;
+    top: 52px;
+    left: 0px;
+}
+#title{
+    font-weight: bold;
+}
+.last-month1{
+    background: url(../imgs/calendar-left-arrow.png) no-repeat;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    left: 5px;  
+}
+.next-month1{
+    background: url(../imgs/calendar-right-arrow.png) no-repeat;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    right: 15px;
+}
+.last-month, .next-month{
+    color: #999;
+}
+th, td{
+    width: 20px;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 1px;
+}
+.left-cal tbody td:hover{
+    background: #eee;
+    color: #222;
+}
+.right-cal{
+    width: 1018px;
+    height: auto;
+    position:absolute;
+    top: 22px;
+    left: 185px; 
+}
+.right-cal table{
+    border-collapse: collapse;
+}
+.right-cal th{
+    width: 142px;
+    height: 28px;
+    text-align: left;
+    vertical-align:middle; 
+}
+.right-cal td{
+    width: 142px;
+    height: 85px;
+    border: 1px solid #999;
+    text-align: left;
+    vertical-align: top; 
+}
+.right-cal td:hover{
+    cursor: pointer;
+}
+#event-container{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 350px;
+    height: 200px;
+    background: white;
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    border: 1px solid rgba(153, 153, 153, 0.5);
+    box-shadow: 1px 1px 1px 0px rgba(153, 153, 153, 0.5);
+    z-index: 3;
+    display: none;
+}
+#event-container p, #edit-container p{
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    font-weight: bold;
+}
+.calendar-close{
+    background: url(../imgs/calendar-close_1.png) no-repeat;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.event{
+    position: absolute;
+    top: 45px;
+    left: 20px;
+    width: 300px;
+    height: 20px;
+    padding-left: 5px;
+}
+#delete{
+    position:absolute;
+    bottom: 20px;
+    right: 105px;
+    background: rgb(244, 244, 244);
+    width: 80px;
+    height: 28px;
+    border-radius: 3px;
+    color: rgb(68,68,68);
+    font-weight: bold;
+}
+#create, #save{
+    position:absolute;
+    bottom: 20px;
+    right: 13px;
+    background: rgb(76, 142, 250);
+    width: 80px;
+    height: 28px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+.triangle{
+    content: "";
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 165px;
+    transform: rotate(45deg);
+    z-index: 5;
+    background: white;
+}
+#edit-container{
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    width: 350px;
+    height: 200px;
+    background: white;
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    border: 1px solid rgba(153, 153, 153, 0.5);
+    box-shadow: 1px 1px 1px 0px rgba(153, 153, 153, 0.5);
+    z-index: 5; 
+    display: none;
+}
+.event_list{
+    width: 142px;
+    height: 18px;
+    font-size: 12px;
+    margin-bottom: 1px;
+    background: rgb(154,156,255);
+    box-sizing: border-box;
+    padding: 2px 5px;
+    color: black;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    z-index: 2;
+}
+.holiday{
+    display: inline-block;
+    width: 142px;
+    height: 18px;
+    font-size: 12px;
+    margin-bottom: 1px;
+    box-sizing: border-box;
+    padding: 2px 5px;
+    background: rgb(22, 167, 101);
+    color: black;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.active{
+    border-bottom: 4px solid rgb(255, 228, 1);
+}
+

@@ -1,0 +1,174 @@
+body {
+    background: #eee;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+#navbar-header{
+    width: 1500px;
+    height: 48px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0,.7);
+    text-align: center;
+    padding-left: 110px;
+    font-family: "Arial", sans-serif;
+    z-index: 1;
+}
+#navbar-left{
+    width: 150px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#navbar-left img{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: -5px;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#navbar-left a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+    color: white;
+}
+#navbar-right{
+    width: 320px;
+    height: 48px;
+    position: absolute;
+    top: 0px;
+    left: 960px;
+}
+#navbar-right ul{
+    width: 280px;
+    height: 48px;
+    list-style-type: none;
+    margin: 0px auto;
+}
+#navbar-right li{
+    display: inline-block;
+    width: 120px;
+    height: 48px;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    margin-left: -5px;
+    box-sizing: border-box;
+    padding-top: 11px;
+    margin-top: 0;
+    background: none;
+}
+#navbar-right li a{
+    width: 120px;
+    height: 48px;
+    text-decoration: none;
+    color: white;
+}
+#navbar-right li a:hover{
+    cursor: pointer;
+}
+.container {
+    position: relative;
+    width: 960px;
+    text-align: center;
+    margin: 80px auto;
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border: solid 1px #ccc;
+}
+.container:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.placeholderBox {
+    background: #fc3;
+    height: 20px;
+    border: dashed 2px #777;
+}
+#todoList:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+#todoList ul {
+    float: left;
+    list-style: none;
+    width: 14.28%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#todoList li {
+    background: none;
+    padding: 5px;
+    border: none;
+    margin: 0;
+    text-align: left;
+    font-size: 12px;
+}
+#todoList li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+#todoList li:active {
+    transform: rotate(2deg);
+    background: #ccc;
+    border-color: #999;
+}
+#todoList li.listTitle {
+    background: #444;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-right: solid 1px white;
+    font-size: 14px;
+}
+#todoList li.listTitle:hover,
+#todoList li.listTitle:active {
+    cursor: default;
+    transform: none;
+}
+#todoList .emptySpace {
+    background: #fc3;
+    border: dashed 1px #777;
+    height: 10px;
+}
+#todoList li.addItem {
+    display: none;
+    position: absolute;
+    top: 0;
+    background: none;
+}
+#todoList ul:hover li.addItem {
+    display: block;
+}
+#todoList li.addItem input {
+    width: 100%;
+    padding: 4px;
+}
+#todoList li.addItem:active {
+    transform: none;   
+}
+#trash {
+    background: #fc3;
+    color: white;
+    height: 200px;
+    width: 400px;
+    margin: 50px auto 0;
+    line-height: 200px;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-size: 22px;
+}
+.active{
+    border-bottom: 4px solid #fc3;
+}
+
