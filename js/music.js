@@ -14,15 +14,15 @@ $(document).ready(function(){
 title: 'Midnight Waltz',
 artist: 'Adam Hurst',
 album: 'Ritual',
-cover:'imgs/ritual.jpg',
-mp3: 'music/Adam Hurst - Midnight Waltz.mp3'
+cover:'/imgs/ritual.jpg',
+mp3: '/music/Adam Hurst - Midnight Waltz.mp3'
 },
 {
 title: 'Dans Les Rues de Ma Jeunesse',
 artist: 'Gérard Darmon',
 album: 'On SAime',
-cover: 'imgs/On.jpg',
-mp3: 'music/Gérard Darmon - Dans Les Rues de Ma Jeunesse.mp3'
+cover: '/imgs/On.jpg',
+mp3: '/music/Gérard Darmon - Dans Les Rues de Ma Jeunesse.mp3'
 },
 {
 title: 'In My Life',
