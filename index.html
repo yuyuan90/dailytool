@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>DailyTool</title>
+    <link rel="icon" type="png/jpg" href="imgs/feather_logo.jpg">
+    <link href="css/index.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div class="container">
+        <div id="navbar-header">
+                <div id="navbar-left">
+                    <img src="imgs/feather_logo.jpg" alt="feather">
+                    <a class="navbar-brand" href="index.html">DailyTool</a>
+                </div>
+                
+                <div id="navbar-right">
+                    <ul>
+                        <li class="active">
+                            <a href="personal_space.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        <div class="cover">
+            <video autoplay loop muted id="bg-video">
+                <source src="imgs/computer_clip1.webm"/>Your browser does not support the video tag. Updating the browser is strongly recommended.
+                <source src="imgs/computer_clip1.ogv"/>Your browser does not support the video tag. Updating the browser is strongly recommended.
+                <source src="imgs/computer_clip1.mp4"/>Your browser does not support the video tag. Updating the browser is strongly recommended.  
+            </video>
+            <div class="cover-text">
+                <h1>Welcome to DailyTool!</h1>
+                <p>Find all handy applications in one page.</p>
+
+                <!--sign up -->
+                <button id="left-button" type="button">Sign up </button>
+                <!--visitor-->
+                <a id="right-button" href="personal_space.html">Visitor</a>
+    
+                <div class="modal" id="leftModal">
+                        <div class="modal-content">
+                            <div class="modal-header" id="signup-header">
+                                <img class="login-pic" src="imgs/login-dec.png">
+                                <img class="close" src="imgs/close.png">
+                            </div><!-- /.modal-header -->
+                            
+                            <div class="modal-body">
+                                <!--for signup-->
+                                <div class="tab tab1">
+                                    <div class="title title1 active">Sign up</div>
+                                    <form class="input-form" method="post">
+                                        <div class="form-group">
+                                            <label class="user-label" for="inputusername"><span class="user"></span>User name</label>
+                                            <input type="text" class="form-input" id="inputusername" name="user" placeholder="username">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="email-label" for="inputemail"><span class="envelope"></span>Your email</label>
+                                            <input type="email" class="form-input" id="inputemail" name="email" placeholder="someone@example.com">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="pass-label" for="inputpassword"><span class="eye-open"></span>Password</label>
+                                            <input type="password" class="form-input" id="inputpassword" name="pass" required>
+                                        </div>
+                                        <input type="submit" value="Sign up" id="signup-bottom-button" name="submit">
+                                    </form>        
+                                </div>
+                                
+                                <!--for signin-->
+                                <div class="tab tab2">
+                                    <div class="title title2">Log in</div>
+                                    <form class="input-form" method="post">
+                                        <div class="form-group">
+                                            <label class="user-label1" for="inputusername1"><span class="user"></span>User name</label>
+                                            <input type="text" class="form-input" id="inputusername1" name="name1">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="pass-label1" for="inputpassword1"><span class="eye-open"></span>Password</label>
+                                            <input type="password" class="form-input" id="inputpassword1" name="pass1">
+                                        </div>
+                                        <input type="submit" id="signin-footerbutton" value="Log in" name="submit1">
+                                    </form> 
+                                </div>
+                            </div><!-- /.modal-body -->
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal -->
+            </div>
+        </div>
+     <footer>
+       <nav>
+           <div class="container">
+               <ul  class="navbar-bottom">
+                   <li class="bottom-link">Terms</li>
+                   <li class="bottom-link">Privacy</li>
+                   <li>Copyright &copy; 2017 </li>
+                   <li>DailyTool by <a href="#">Yuyuan</a></li>
+               </ul>
+           </div>
+       </nav>
+    </footer>
+    </div>
+    
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/homepage.js"></script>
+</body>
