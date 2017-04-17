@@ -28,50 +28,50 @@ mp3: 'music/Gérard Darmon - Dans Les Rues de Ma Jeunesse.mp3'
 title: 'In My Life',
 artist: 'John Lennon',
 album: 'Imagine: John Lennon',
-cover: 'imgs/John_Lennon_-_Imagine_John_Lennon.jpg',
+cover: '/imgs/John_Lennon_-_Imagine_John_Lennon.jpg',
 mp3: 'music/John Lennon - In My Life.mp3'
 },
 {
 title: 'За тебя, Родина-мать',
 artist: 'Lube',
 album: 'За тебя, Родина-мать!',
-cover: 'imgs/За_тебя,_Родина-мать!_cover.jpg',
-mp3: '../music/Lube - За тебя, Родина-мать.mp3'
+cover: '/imgs/За_тебя,_Родина-мать!_cover.jpg',
+mp3: 'music/Lube - За тебя, Родина-мать.mp3'
 },
 {
 title: 'Closer',
 artist: 'Travis',
 album: 'Closer',
-cover: 'imgs/closer.jpg',
-mp3: '../music/Travis - Closer.mp3'
+cover: '/imgs/closer.jpg',
+mp3: 'music/Travis - Closer.mp3'
 },
 {
 title: 'Unaccompanied Cello Suite No. 1 in G Major, BWV 1007 Prélude (Instrumental) - instrumental',
 artist: 'Yo-Yo Ma',
 album: 'Bach: Cello Suites Nos. 1, 5 & 6',
-cover: 'imgs/yoyo-ma.jpg',
-mp3: '../music/Yo-Yo Ma - Unaccompanied Cello Suite No. 1 in G Major, BWV 1007 Prélude (Instrumental) - instrumental.mp3'
+cover: '/imgs/yoyo-ma.jpg',
+mp3: 'music/Yo-Yo Ma - Unaccompanied Cello Suite No. 1 in G Major, BWV 1007 Prélude (Instrumental) - instrumental.mp3'
 }, 
 {
 title: 'Summer',
 artist: '久石譲',
 album: 'Encore',
-cover: 'imgs/久石譲 - Summer.jpg',
-mp3: '../music/久石譲 - Summer.mp3'
+cover: '/imgs/久石譲 - Summer.jpg',
+mp3: 'music/久石譲 - Summer.mp3'
 },
 {
 title: 'D.M. (AsianMix) - remix',
 artist: '門倉聡',
 album: 'METAL SAGA',
-cover: 'imgs/D.M.jpg',
-mp3: '../music/MONGOL800 - こいのうた.mp3'
+cover: '/imgs/D.M.jpg',
+mp3: 'music/MONGOL800 - こいのうた.mp3'
 },
 {
 title: '歌をあなたに',
 artist: '中島みゆき',
 album: '私の声が闻こえますか',
-cover: 'imgs/歌をあなたに.jpg',
-mp3: '../music/中島みゆき - 歌をあなたに.mp3'
+cover: '/imgs/歌をあなたに.jpg',
+mp3: 'music/中島みゆき - 歌をあなたに.mp3'
 }           
 ];
      
