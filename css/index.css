@@ -1,0 +1,327 @@
+html, body, .cover{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#navbar-header{
+    width: 1500px;
+    height: 48px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, .4);
+    text-align: center;
+    padding-left: 120px;
+    font-family: "Arial", sans-serif;
+}
+#navbar-left{
+    width: 150px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#navbar-left img{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: -5px;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#navbar-left a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+#navbar-right{
+    width: 250px;
+    height: 48px;
+    position: absolute;
+    top: 0;
+    left: 960px;
+}
+#navbar-right ul{
+    list-style-type: none;
+    margin: 0px;
+}
+#navbar-right li{
+    display: inline-block;
+    width: 80px;
+    height: 48px;
+    box-sizing: border-box;
+    padding-top: 11px;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    margin-left: -5px;
+}
+#navbar-right li a{
+    color: white;
+    text-decoration: none;
+}
+#navbar-right li a:hover{
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 48px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: rgb(46, 46, 46);
+    text-align: center;
+}
+ul.navbar-bottom{
+    width: 960px;
+    height: 48px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-right: 55px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+ul.navbar-bottom li{
+    display: inline-block;
+    width: 180px;
+    height: 48px;
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 0.1px;
+    margin-top: 0;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+.navbar-bottom a, .bottom-link:hover{
+    color: rgb(153, 175, 240);
+}
+#bg-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-size: cover;   
+} 
+.cover{
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.1);
+    z-index: -2;
+}
+.cover-text{
+    text-align: center;
+    margin: 15% auto;
+    color: white;
+    font-family: sans-serif;
+}
+.cover-text h1 {
+    margin: 0;
+    font-size: 73px;
+    letter-spacing: -3px;
+}
+.cover-text p{
+    font-family: sans-serif;
+    font-size: 22px;
+}
+#left-button, #right-button{
+    width: 110px;
+    height: 42px;
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 25px 55px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    box-shadow: 0 0 3px 0px rgba(255, 255, 255, .5) inset;
+}
+#left-button{
+    background: rgb(200, 76, 73);
+}
+#right-button{
+    display: inline-block;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-top: 10px;
+    background: rgb(153, 175, 240);
+}
+#leftModal{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0,0,0,.5);
+    display: none;
+}
+.modal-content{
+    width: 560px;
+    height: 340px;
+    position:absolute;
+    background: white;
+    top: 20%;
+    left: 30%;
+}
+.tab2 form, .tab2 button{
+    visibility: hidden;
+}
+.login-pic{
+    width: 220px;
+    position: absolute;
+    top: -130px;
+    left: 20px;
+    z-index: 1;
+}
+.close{
+    width: 16px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+#signup-bottom-button, #signin-footerbutton{
+    width: 100px;
+    height: 38px;
+    background: rgb(200, 76, 73);
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    color: white;
+}
+#signin-footerbutton{
+    background: rgb(0, 112, 192);
+}
+.title{
+    width: 90px;
+    height: 40px;
+    border:1px solid #ccc;
+    position: absolute;
+    top: 31px;
+    color: rgba(46,46,46,.6);
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding-top: 11px;
+    background: white;
+    border-radius: 10px 10px 0 0;
+    z-index: 4;
+}
+.title1{
+    left: 55px;
+    border-bottom: none;
+}
+.title2{
+    left: 144px;
+}
+.input-form{
+    width: 560px;
+    height: 250px;
+    position: absolute;
+    top: 70px;
+    border-top: 1px solid #ccc;
+}
+.form-input{
+    width: 256px;
+    height: 28px;
+    border: 1px solid #ccc;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    padding-left: 5px;
+    position: absolute;
+    left:170px; 
+}
+label{
+    width: 100px;
+    height: 28px;
+    position: absolute;
+    left: 90px;
+    color: black;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding-top: 4px;
+    text-align: left;
+}
+.user-label{
+    top: 48px;
+}
+.email-label{
+    top: 98px;
+}
+.pass-label{
+    top: 148px;
+}
+span{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -35px;
+}
+span.user{   
+    top: -1px;
+    background: url(../imgs/profile-pic.png) no-repeat;   
+}
+span.envelope{
+    top: 0px;
+    background: url(../imgs/mail-pic.png) no-repeat; 
+}
+span.eye-open{
+    top: 0px;
+    background: url(../imgs/open-padlock.png) no-repeat;
+}
+#inputusername{
+    top: 45px;
+}
+#inputemail{
+    top: 95px;
+    
+}
+#inputpassword{
+    top: 145px;   
+}
+#inputusername1{
+    top: 50px;
+}
+#inputpassword1{
+    top: 105px;
+}
+.user-label1{
+    top: 53px;
+}
+.pass-label1{
+    top: 108px;
+}
+.active{
+    border-bottom: 4px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
