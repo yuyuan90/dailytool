@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="png/jpg" href="imgs/feather_logo.jpg">
+    <title>DailyTool - Add Contact</title>
+    <link href="css/add-contacts.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div id="navbar-header">
+                <div id="navbar-left">
+                    <img src="imgs/feather.jpg" alt="Brand" id="feather-logo">
+                    <a class="navbar-brand" href="index.html">DailyTool</a>
+                </div>
+                
+                <div id="navbar-right">
+                    <ul>
+                        <li class="active">
+                            <a href="personal_space.html">Your Page</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    <div class="container">
+        <h1>Add Contact</h1>
+        <form method="post">
+            <ul id="left-list">
+                <li>
+                    <label for="addName">Name</label>
+                </li>
+                <li>
+                    <input type="text" id="addName" name="add-Name">
+                </li>
+                <li>
+                    <label for="addEmail">Email</label>
+                </li>
+                <li>
+                    <input type="email" id="addEmail" name = "add-Email" placeholder="someone@email.com">
+                </li>
+                <li>
+                    <label for="addPhone">Phone</label>
+                </li>
+                <li>
+                    <input type="number" id="addPhone" name="add-Phone">
+                </li>
+            </ul>
+            <ul id="right-list">
+                <li>
+                    <label for="addComapny">Company</label>
+                </li>
+                <li>
+                    <input type="text" id="addComapny" name="add-Company">
+                </li>
+                <li>
+                    <label for="addAddress">Address</label>
+                </li>
+                <li>
+                    <input type="text" id="addAddress" name="add-Address">
+                </li>
+                <li>
+                    <label>Notes</label>
+                </li>
+                <li>
+                    <textarea rows="6" cols="67" name="add-Notes"></textarea>
+                </li>
+            </ul>
+          <div class="bottom-button">
+            <a href="contacts.html">Cancel</a>
+            <button type="submit" name="add">Add Contact</button>
+          </div>
+        </form>
+    </div>
+
+</body>
+</html>

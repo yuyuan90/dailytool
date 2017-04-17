@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>DailyTool - Shopping</title>
+        <link rel="icon" type="png/jpg" href="imgs/feather_logo.jpg">
+        <link rel="stylesheet" href="css/shopping.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+        <div id="popup-container">
+            <div id="popup-content">
+                <img class="close" src="imgs/close.png">
+                <div id="left">
+                    <p>Fun Game</p>
+                    <img src="">
+                </div>
+                
+                <div id="right">
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus blanditiis praesentium voluptatum deleniti atque corrupti quos dolores quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. </p>
+                    <p><strong>Release Date: </strong> 23 Mar, 2017</p>
+                    <p id="price">
+                        $<span class="sale"></span>
+                        <span class="prev-price"></span>  
+                    </p>
+                    <form id="form">
+                        <input id="quantity" type="number" min="1" max="10" step="1" value="1">
+                        <input id="add" type="button" value="ADD TO CART">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div id="main-container">
+            <div id="navbar-header">
+                <div id="navbar-left">
+                    <img src="imgs/feather_logo.jpg" alt="feather">
+                    <a class="navbar-brand" href="index.html">DailyTool</a>
+                </div>
+                <div id="navbar-right">
+                    <ul>
+                        <li class="active">
+                            <a href="personal_space.html">Your Page</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                    </ul>
+                 </div>
+            </div>
+            <div id="banner">
+                <input id="search" type="text" placeholder="Search..." autofocus>
+                <span id="search-icon"></span>
+            </div> 
+            <div id="category">
+                    <ul>
+                        <li id="all">All Items</li>
+                        <li id="album">New Albums</li>
+                        <li id="game">Fun Games</li>
+                        <li id="picture">Pictures</li>
+                        <li id="shopping-cart">
+                            <span id="cart-icon"></span>
+                            Shopping Cart (<span id="goods">0</span>)
+                            <div id="dialog">TOTAL: $<span></span></div>
+                        </li>
+                    </ul>
+                    
+            </div>
+            <div id="content-container">
+                    <div class="item album-cover">
+                        <img src="imgs/album-cover4.png">
+                        <p class="item-description">Alan - Pink Street (DVD)</p>
+                        <p class="item-price">
+                            $<span class="sale">9</span>
+                            <span class="pre-price">$16</span>
+                            <button class="item-add">Add</button>
+                        </p>
+                    </div>
+                    
+                    <div class="item game-cover">
+                        <img src="imgs/game-cover3.png">
+                        <p class="item-description">Fun Game - Deluxe Edition</p>
+                        <p class="item-price">
+                            $<span class="sale">15</span>
+                            <span class="pre-price">$28</span>
+                            <button class="item-add">Add</button>
+                        </p>
+                    </div>
+                    <div class="item animal-pic">
+                        <img src="imgs/dolphin-pic.jpg">
+                        <p class="item-description">Dolphin photo by Master</p>
+                        <p class="item-price">
+                            $<span class="sale">1</span>
+                            <button class="item-add">Add</button>
+                        </p>
+                    </div>
+                    <div class="item album-cover">
+                        <img src="imgs/album-cover.png">
+                        <p class="item-description">Kiki - Adventure (CD + DVD)</p>
+                        <p class="item-price">
+                            $<span class="sale">11</span>
+                            <span class="pre-price">$17</span>
+                            <button class="item-add">Add</button>
+                        </p>
+                    </div>
+                    <div class="item game-cover">
+                        <img src="imgs/game-cover2.png">
+                        <p class="item-description">Fun Game - Enhanced Edition</p>
+                        <p class="item-price">
+                            $<span class="sale">22</span>
+                            <span class="pre-price">$30</span>
+                            <button class="item-add">Add</button>
+                        </p>
+                    </div>
+                    <div class="item animal-pic">
+                        <img src="imgs/cat-pic.jpg">
+                        <p class="item-description">Cat photo by Master</p>
+                        <p class="item-price">
+                            $<span class="sale">0.5</span>
+                            <span class="pre-price">$1</span>
+                            <button class="item-add">Add</button>
+                        </p>
+                    </div>
+                    <div class="item album-cover">
+                        <img src="imgs/album-cover5.png">
+                        <p class="item-description">Sam - 1 Mile High</p>
+                        <p class="item-price">
+                            $<span class="sale">7</span>
+                            <span class="pre-price">$10.5</span>
+                            <button class="item-add">Add</button>
+                        </p>
+                    </div>
+                    <div class="item animal-pic">
+                        <img src="imgs/yak-pic.jpg">
+                        <p class="item-description">Yak photo by Master</p>
+                        <p class="item-price">
+                            $<span class="sale">0.5</span>
+                            <span class="pre-price">$1</span>
+                            <button class="item-add">Add</button>
+                        </p>
+                    </div>                    
+                    <div class="item album-cover">
+                        <img src="imgs/album-cover1.png">
+                        <p class="item-description">Kiki - Adventure (CD)</p>
+                        <p class="item-price">
+                            $<span class="sale">9</span>
+                            <span class="pre-price">$17</span>
+                            <button class="item-add">Add</button>
+                        </p>
+                    </div>
+                    <div class="item animal-pic">
+                        <img src="imgs/cat-pic1.jpg">
+                        <p class="item-description">Cat photo by Master</p>
+                        <p class="item-price">
+                            $<span class="sale">1</span>
+                            <span class="pre-price"></span>
+                            <button class="item-add">Add</button>
+                        </p>
+                    </div>
+                    <div class="item game-cover">
+                        <img src="imgs/game-cover1.png">
+                        <p class="item-description">Fun Game Ⅲ</p>
+                        <p class="item-price">
+                            $<span class="sale">18</span>
+                            <span class="pre-price">$32</span>
+                            <button class="item-add">Add</button>
+                        </p>
+                    </div>
+                    <div class="item animal-pic">
+                        <img src="imgs/dog-pic.jpg">
+                        <p class="item-description">Fox photo by Master</p>
+                        <p class="item-price">
+                            $<span class="sale">0.5</span>
+                            <span class="pre-price">$1</span>
+                            <button class="item-add">Add</button>
+                        </p>
+                    </div>
+                    <div class="item album-cover">
+                        <img src="imgs/album-cover3.png">
+                        <p class="item-description">Kiki - Adventure (CD + DVD)</p>
+                        <p class="item-price">
+                            $<span class="sale">6</span>
+                            <span class="pre-price">$12</span>
+                            <button class="item-add">Add</button>
+                        </p>
+                    </div>
+                    <div class="item game-cover">
+                        <img src="imgs/game-cover.png">
+                        <p class="item-description">Fun Game - Deluxe Edition</p>
+                        <p class="item-price">
+                            $<span class="sale">25</span>
+                            <span class="pre-price">$32</span>
+                            <button class="item-add">Add</button>
+                        </p>
+                    </div>
+                  
+            </div>
+            
+            <a id="back-to-top" href="#"><img src="imgs/back-to-top.png"></a>
+            
+            <footer id="footer-lists">
+                <ul>
+                    <li>About</li>
+                    <li>Press</li>
+                    <li>News</li>
+                </ul>
+                <ul>
+                    <li>For Artists</li>
+                    <li>Developers</li>
+                    <li>Brands</li>
+                </ul>
+                <ul>
+                    <li>Member Gift</li>
+                    <li>About Ads</li>
+                    <li>Help</li>
+                </ul>
+            </footer>
+            
+        </div>
+        
+        
+        
+        
+    
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/shopping.js"></script>
+    </body>
+
+
+
+
+</html>

@@ -1,0 +1,1816 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" type="png/jpg" href="imgs/feather_logo.jpg">
+        <link rel="stylesheet" href="css/calendar.css">
+    </head>
+    <body>
+        <div id="navbar-header">
+                <div id="navbar-left">
+                    <img src="imgs/feather_logo.jpg" alt="feather">
+                    <a class="navbar-brand" href="index.html">DailyTool</a>
+                </div>
+                
+                <div id="navbar-right">
+                    <ul>
+                        <li class="active">
+                            <a href="personal_space.html">Your Page</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        <div id="container">
+            <div id="event-container">
+                <p>Event</p>
+                <span class="calendar-close"></span>
+                <input class="event" type="text" placeholder="e.g., 7pm Dinner at Pancho's" autofocus>
+                <input type="button" value="Create" id="create">
+                <div class="triangle"></div>
+            </div>
+            <div id="edit-container">
+                <p>Edit event</p>
+                <span class="calendar-close"></span>
+                <input class="event" type="text" autofocus>
+                <input type="button" value="Delete" id="delete">
+                <input type="button" value="Save" id="save">
+                <div class="triangle"></div>
+            </div>
+            
+            <ul id="months">
+                <li>
+                    <div class="left-cal">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td colspan="1" class="last-month1"></td>
+                                    <td colspan="5">January 2017</td>
+                                    <td colspan="1" class="next-month1"></td>
+                                </tr>    
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>S</th>
+                                    <th>M</th>
+                                    <th>T</th>
+                                    <th>W</th>
+                                    <th>T</th>
+                                    <th>F</th>
+                                    <th>S</th>
+                                </tr>
+                                <tr>
+                                    <td class="last-month">25</td>
+                                    <td class="last-month">26</td>
+                                    <td class="last-month">27</td>
+                                    <td class="last-month">28</td>
+                                    <td class="last-month">29</td>
+                                    <td class="last-month">30</td>
+                                    <td class="last-month">31</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>                              
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>                              
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                </tr>
+                                <tr>
+                                    <td>22</td>
+                                    <td>23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td> 
+                                </tr>
+                                <tr>
+                                    <td>29</td>
+                                    <td>30</td>
+                                    <td>31</td>
+                                    <td class="next-month">1</td>
+                                    <td class="next-month">2</td>
+                                    <td class="next-month">3</td>
+                                    <td class="next-month">4</td>
+                                </tr>
+                            </tbody>
+                        </table>
+</div><!--Jan-->
+                    <div class="right-cal">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Sun</th>
+                                    <th>Mon</th>
+                                    <th>Tue</th>
+                                    <th>Wed</th>
+                                    <th>Thu</th>
+                                    <th>Fri</th>
+                                    <th>Sat</th>
+                                </tr>
+                                <tr class="event-up">
+                                    <td class="last-month">25</td>
+                                    <td class="last-month">26</td>
+                                    <td class="last-month">27</td>
+                                    <td class="last-month">28</td>
+                                    <td class="last-month">29</td>
+                                    <td class="last-month">30</td>
+                                    <td class="last-month">31</td>
+                                </tr>
+                                <tr class="event-up">
+                                    <td>1<span class="holiday">New Year's Day</span></td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6<span class="holiday">Epiphany</span></td>
+                                    <td>7</td> 
+                                </tr>
+                                <tr class="event-down">
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>221</td>
+                                    <td>23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>29</td>
+                                    <td>30</td>
+                                    <td>31</td>
+                                    <td class="next-month">1</td>
+                                    <td class="next-month">2</td>
+                                    <td class="next-month">3</td>
+                                    <td class="next-month">4</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--Jan-->
+                </li>
+                <li>
+                   <div class="left-cal">
+                       <table>
+                            <thead>
+                                <tr>
+                                    <td colspan="1" class="last-month1"></td>
+                                    <td colspan="5">February 2017</td>
+                                    <td colspan="1" class="next-month1"></td>
+                                </tr>    
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th>S</th>
+                                <th>M</th>
+                                <th>T</th>
+                                <th>W</th>
+                                <th>T</th>
+                                <th>F</th>
+                                <th>S</th>
+                            </tr>
+                            <tr>
+                                <td class="last-month">29</td>
+                                <td class="last-month">30</td>
+                                <td class="last-month">31</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                            </tr>
+                            <tr>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                                <td class="next-month">1</td>
+                                <td class="next-month">2</td>
+                                <td class="next-month">3</td>
+                                <td class="next-month">4</td>
+                            </tr>
+                            <tr>
+                                <td class="next-month">5</td>
+                                <td class="next-month">6</td>
+                                <td class="next-month">7</td>
+                                <td class="next-month">8</td>
+                                <td class="next-month">9</td>
+                                <td class="next-month">10</td>
+                                <td class="next-month">11</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div><!--Feb-->
+                    <div class="right-cal">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Sun</th>
+                                    <th>Mon</th>
+                                    <th>Tue</th>
+                                    <th>Wed</th>
+                                    <th>Thu</th>
+                                    <th>Fri</th>
+                                    <th>Sat</th>
+                                </tr>
+                                <tr class="event-up">
+                                    <td class="last-month">29</td>
+                                    <td class="last-month">30</td>
+                                    <td class="last-month">31</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                </tr>
+                                <tr class="event-up">
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14<span class="holiday">Valentine's day</span></td>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td class="next-month">1</td>
+                                    <td class="next-month">2</td>
+                                    <td class="next-month">3</td>
+                                    <td class="next-month">4</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td class="next-month">5</td>
+                                    <td class="next-month">6</td>
+                                    <td class="next-month">7</td>
+                                    <td class="next-month">8</td>
+                                    <td class="next-month">9</td>
+                                    <td class="next-month">10</td>
+                                    <td class="next-month">11</td>
+                                </tr>
+                            </tbody>
+                        </table>
+</div><!--Feb-->               
+                </li>
+                <li>   
+                    <div class="left-cal">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td colspan="1" class="last-month1"></td>
+                                <td colspan="5">March 2017</td>
+                                <td colspan="1" class="next-month1"></td>
+                            </tr>    
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>S</th>
+                                <th>M</th>
+                                <th>T</th>
+                                <th>W</th>
+                                <th>T</th>
+                                <th>F</th>
+                                <th>S</th>
+                            </tr>
+                            <tr>
+                                <td class="last-month">26</td>
+                                <td class="last-month">27</td>
+                                <td class="last-month">28</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                            </tr>
+                            <tr>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>29</td>
+                                <td>30</td>
+                                <td>31</td>
+                                <td class="next-month">1</td>
+                            </tr>
+                            <tr>
+                                <td class="next-month">2</td>
+                                <td class="next-month">3</td>
+                                <td class="next-month">4</td>
+                                <td class="next-month">5</td>
+                                <td class="next-month">6</td>
+                                <td class="next-month">7</td>
+                                <td class="next-month">8</td>
+                            </tr>
+                        </tbody>
+</table>
+</div><!--March-->
+                    <div class="right-cal">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Sun</th>
+                                    <th>Mon</th>
+                                    <th>Tue</th>
+                                    <th>Wed</th>
+                                    <th>Thu</th>
+                                    <th>Fri</th>
+                                    <th>Sat</th>
+                                </tr>
+                                <tr class="event-up">
+                                    <td class="last-month">26</td>
+                                    <td class="last-month">27</td>
+                                    <td class="last-month">28</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                </tr>
+                                <tr class="event-up">
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td>30</td>
+                                    <td>31</td>
+                                    <td class="next-month">1</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td class="next-month">2</td>
+                                    <td class="next-month">3</td>
+                                    <td class="next-month">4</td>
+                                    <td class="next-month">5</td>
+                                    <td class="next-month">6</td>
+                                    <td class="next-month">7</td>
+                                    <td class="next-month">8</td>
+                                </tr>
+                            </tbody>
+                        </table>
+</div><!--March-->
+                </li>   
+                <li id="April">
+                    <div class="left-cal">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td colspan="1" class="last-month1"></td>
+                                <td colspan="5">April 2017</td>
+                                <td colspan="1" class="next-month1"></td>
+                            </tr>    
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>S</th>
+                                <th>M</th>
+                                <th>T</th>
+                                <th>W</th>
+                                <th>T</th>
+                                <th>F</th>
+                                <th>S</th>
+                            </tr>
+                            <tr>
+                                <td class="last-month">26</td>
+                                <td class="last-month">27</td>
+                                <td class="last-month">28</td>
+                                <td class="last-month">29</td>
+                                <td class="last-month">30</td>
+                                <td class="last-month">31</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>22</td>
+                            </tr>
+                            <tr>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>29</td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td class="next-month">1</td>
+                                <td class="next-month">2</td>
+                                <td class="next-month">3</td>
+                                <td class="next-month">4</td>
+                                <td class="next-month">5</td>
+                                <td class="next-month">6</td>
+                            </tr>
+</tbody>
+                    </table>
+
+</div><!--April-->
+                    <div class="right-cal">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Sun</th>
+                                <th>Mon</th>
+                                <th>Tue</th>
+                                <th>Wed</th>
+                                <th>Thu</th>
+                                <th>Fri</th>
+                                <th>Sat</th>
+                            </tr>
+                            <tr class="event-up">
+                                <td class="last-month">26</td>
+                                <td class="last-month">27</td>
+                                <td class="last-month">28</td>
+                                <td class="last-month">29</td>
+                                <td class="last-month">30</td>
+                                <td class="last-month">31</td>
+                                <td>1</td>
+                            </tr>
+                            <tr class="event-up">
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                            </tr>
+                            <tr class="event-down">
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14<span class="holiday">Good Friday</span></td>
+                                <td>15</td>
+                            </tr>
+                            <tr class="event-down">
+                                <td>16<span class="holiday">Easter Day</span></td>
+                                <td>17<span class="holiday">Easter Monday</span></td>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>22</td>
+                            </tr>
+                            <tr class="event-down">
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>29</td>
+                            </tr>
+                            <tr class="event-down">
+                                <td>30</td>
+                                <td class="next-month">1<span class="holiday">May 1st</span></td>
+                                <td class="next-month">2</td>
+                                <td class="next-month">3</td>
+                                <td class="next-month">4</td>
+                                <td class="next-month">5</td>
+                                <td class="next-month">6</td>
+                            </tr>
+                        </tbody>
+                    </table>
+</div><!--April-->
+                </li>
+                <li>
+                    <div class="left-cal">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td colspan="1" class="last-month1"></td>
+                                    <td colspan="5">May 2017</td>
+                                    <td colspan="1" class="next-month1"></td>
+                                </tr>    
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>S</th>
+                                    <th>M</th>
+                                    <th>T</th>
+                                    <th>W</th>
+                                    <th>T</th>
+                                    <th>F</th>
+                                    <th>S</th>
+                                </tr>
+                                <tr>
+                                    <td class="last-month">30</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>                              
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>                              
+                                </tr>
+                                <tr>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                    <td>26</td>
+                                    <td>27</td>
+                                </tr>
+                                <tr>
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td>30</td>
+                                    <td>31</td>
+                                    <td class="next-month">1</td>
+                                    <td class="next-month">2</td>
+                                    <td class="next-month">3</td> 
+                                </tr>
+                                <tr>
+                                    <td class="next-month">4</td>
+                                    <td class="next-month">5</td>
+                                    <td class="next-month">6</td>
+                                    <td class="next-month">7</td>
+                                    <td class="next-month">8</td>
+                                    <td class="next-month">9</td>
+                                    <td class="next-month">10</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--May-->
+                    <div class="right-cal">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Sun</th>
+                                    <th>Mon</th>
+                                    <th>Tue</th>
+                                    <th>Wed</th>
+                                    <th>Thu</th>
+                                    <th>Fri</th>
+                                    <th>Sat</th>
+                                </tr>
+                                <tr class="event-up">
+                                    <td class="last-month">30</td>
+                                    <td>1<span class="holiday">May 1st</span></td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr class="event-up">
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>  
+                                </tr>
+                                <tr class="event-down">
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                    <td>24</td>
+                                    <td>25<span class="holiday">Ascension Day</span></td>
+                                    <td>26</td>
+                                    <td>27</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>28<span class="holiday">Mother's Day</span></td>
+                                    <td>29</td>
+                                    <td>30</td>
+                                    <td>31</td>
+                                    <td class="next-month">1</td>
+                                    <td class="next-month">2</td>
+                                    <td class="next-month">3</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td class="next-month">4</td>
+                                    <td class="next-month">5</td>
+                                    <td class="next-month">6</td>
+                                    <td class="next-month">7</td>
+                                    <td class="next-month">8</td>
+                                    <td class="next-month">9</td>
+                                    <td class="next-month">10</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--May-->
+                </li>
+                <li>
+                    <div class="left-cal">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td colspan="1" class="last-month1"></td>
+                                    <td colspan="5">June 2017</td>
+                                    <td colspan="1" class="next-month1"></td>
+                                </tr>    
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>S</th>
+                                    <th>M</th>
+                                    <th>T</th>
+                                    <th>W</th>
+                                    <th>T</th>
+                                    <th>F</th>
+                                    <th>S</th>
+                                </tr>
+                                <tr>
+                                    <td class="last-month">28</td>
+                                    <td class="last-month">29</td>
+                                    <td class="last-month">30</td>
+                                    <td class="last-month">31</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>                              
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>                              
+                                </tr>
+                                <tr>
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                    <td>24</td>
+                                </tr>
+                                <tr>
+                                    <td>25</td>
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td>30</td>
+                                    <td class="next-month">1</td> 
+                                </tr>
+                                <tr>
+                                    <td class="next-month">2</td>
+                                    <td class="next-month">3</td>
+                                    <td class="next-month">4</td>
+                                    <td class="next-month">5</td>
+                                    <td class="next-month">6</td>
+                                    <td class="next-month">7</td>
+                                    <td class="next-month">8</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--June-->
+                    <div class="right-cal">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Sun</th>
+                                    <th>Mon</th>
+                                    <th>Tue</th>
+                                    <th>Wed</th>
+                                    <th>Thu</th>
+                                    <th>Fri</th>
+                                    <th>Sat</th>
+                                </tr>
+                                <tr class="event-up">
+                                    <td class="last-month">28<span class="holiday">Mother's Day</span></td>
+                                    <td class="last-month">29</td>
+                                    <td class="last-month">30</td>
+                                    <td class="last-month">31</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr class="event-up">
+                                    <td>4<span class="holiday">Whit Sunday</span></td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>  
+                                </tr>
+                                <tr class="event-down">
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23<span class="holiday">Midsummer Eve</span></td>
+                                    <td>24<span class="holiday">Midsummer Day</span></td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>25</td>
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td>30</td>
+                                    <td class="next-month">1</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td class="next-month">2</td>
+                                    <td class="next-month">3</td>
+                                    <td class="next-month">4</td>
+                                    <td class="next-month">5</td>
+                                    <td class="next-month">6</td>
+                                    <td class="next-month">7</td>
+                                    <td class="next-month">8</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--June-->
+                </li>
+                <li>
+                    <div class="left-cal">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td colspan="1" class="last-month1"></td>
+                                    <td colspan="5">July 2017</td>
+                                    <td colspan="1" class="next-month1"></td>
+                                </tr>    
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>S</th>
+                                    <th>M</th>
+                                    <th>T</th>
+                                    <th>W</th>
+                                    <th>T</th>
+                                    <th>F</th>
+                                    <th>S</th>
+                                </tr>
+                                <tr>
+                                    <td class="last-month">25</td>
+                                    <td class="last-month">26</td>
+                                    <td class="last-month">27</td>
+                                    <td class="last-month">28</td>
+                                    <td class="last-month">29</td>
+                                    <td class="last-month">30</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>                              
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>                     
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                </tr>
+                                <tr>
+                                    <td>23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td>29</td> 
+                                </tr>
+                                <tr>
+                                    <td>30</td>
+                                    <td>31</td>
+                                    <td class="next-month">1</td>
+                                    <td class="next-month">2</td>
+                                    <td class="next-month">3</td>
+                                    <td class="next-month">4</td>
+                                    <td class="next-month">5</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--July-->
+                    <div class="right-cal">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Sun</th>
+                                    <th>Mon</th>
+                                    <th>Tue</th>
+                                    <th>Wed</th>
+                                    <th>Thu</th>
+                                    <th>Fri</th>
+                                    <th>Sat</th>
+                                </tr>
+                                <tr class="event-up">
+                                    <td class="last-month">25</td>
+                                    <td class="last-month">26</td>
+                                    <td class="last-month">27</td>
+                                    <td class="last-month">28</td>
+                                    <td class="last-month">29</td>
+                                    <td class="last-month">30</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr class="event-up">
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>  
+                                </tr>
+                                <tr class="event-down">
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td>29</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>30</td>
+                                    <td>31</td>
+                                    <td class="next-month">1</td>
+                                    <td class="next-month">2</td>
+                                    <td class="next-month">3</td>
+                                    <td class="next-month">4</td>
+                                    <td class="next-month">5</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--July-->
+                </li>
+                <li>
+                    <div class="left-cal">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td colspan="1" class="last-month1"></td>
+                                    <td colspan="5">August 2017</td>
+                                    <td colspan="1" class="next-month1"></td>
+                                </tr>    
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>S</th>
+                                    <th>M</th>
+                                    <th>T</th>
+                                    <th>W</th>
+                                    <th>T</th>
+                                    <th>F</th>
+                                    <th>S</th>
+                                </tr>
+                                <tr>
+                                    <td class="last-month">30</td>
+                                    <td class="last-month">31</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>                     
+                                </tr>
+                                <tr>
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                    <td>26</td>
+                                </tr>
+                                <tr>
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td>30</td>
+                                    <td>31</td>
+                                    <td class="next-month">1</td>
+                                    <td class="next-month">2</td> 
+                                </tr>
+                                <tr>
+                                    <td class="next-month">3</td>
+                                    <td class="next-month">4</td>
+                                    <td class="next-month">5</td>
+                                    <td class="next-month">6</td>
+                                    <td class="next-month">7</td>
+                                    <td class="next-month">8</td>
+                                    <td class="next-month">9</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--August-->
+                    <div class="right-cal">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Sun</th>
+                                    <th>Mon</th>
+                                    <th>Tue</th>
+                                    <th>Wed</th>
+                                    <th>Thu</th>
+                                    <th>Fri</th>
+                                    <th>Sat</th>
+                                </tr>
+                                <tr class="event-up">
+                                    <td class="last-month">30</td>
+                                    <td class="last-month">31</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr class="event-up">
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>  
+                                </tr>
+                                <tr class="event-down">
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>  
+                                </tr>
+                                <tr class="event-down">
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                    <td>26</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td>30</td>
+                                    <td>31</td>
+                                    <td class="next-month">1</td>
+                                    <td class="next-month">2</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td class="next-month">3</td>
+                                    <td class="next-month">4</td>
+                                    <td class="next-month">5</td>
+                                    <td class="next-month">6</td>
+                                    <td class="next-month">7</td>
+                                    <td class="next-month">8</td>
+                                    <td class="next-month">9</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--August-->
+                </li>
+                <li>
+                    <div class="left-cal">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td colspan="1" class="last-month1"></td>
+                                    <td colspan="5">September 2017</td>
+                                    <td colspan="1" class="next-month1"></td>
+                                </tr>    
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>S</th>
+                                    <th>M</th>
+                                    <th>T</th>
+                                    <th>W</th>
+                                    <th>T</th>
+                                    <th>F</th>
+                                    <th>S</th>
+                                </tr>
+                                <tr>
+                                    <td class="last-month">27</td>
+                                    <td class="last-month">28</td>
+                                    <td class="last-month">29</td>
+                                    <td class="last-month">30</td>
+                                    <td class="last-month">31</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>                     
+                                </tr>
+                                <tr>
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                </tr>
+                                <tr>
+                                    <td>24</td>
+                                    <td>25</td>
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td>30</td> 
+                                </tr>
+                                <tr>
+                                    <td class="next-month">1</td>
+                                    <td class="next-month">2</td>
+                                    <td class="next-month">3</td>
+                                    <td class="next-month">4</td>
+                                    <td class="next-month">5</td>
+                                    <td class="next-month">6</td>
+                                    <td class="next-month">7</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--September-->
+                    <div class="right-cal">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Sun</th>
+                                    <th>Mon</th>
+                                    <th>Tue</th>
+                                    <th>Wed</th>
+                                    <th>Thu</th>
+                                    <th>Fri</th>
+                                    <th>Sat</th>
+                                </tr>
+                                <tr class="event-up">
+                                    <td class="last-month">27</td>
+                                    <td class="last-month">28</td>
+                                    <td class="last-month">29</td>
+                                    <td class="last-month">30</td>
+                                    <td class="last-month">31</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr class="event-up">
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>  
+                                </tr>
+                                <tr class="event-down">
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>  
+                                </tr>
+                                <tr class="event-down">
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>24</td>
+                                    <td>25</td>
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td>30</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td class="next-month">1</td>
+                                    <td class="next-month">2</td>
+                                    <td class="next-month">3</td>
+                                    <td class="next-month">4</td>
+                                    <td class="next-month">5</td>
+                                    <td class="next-month">6</td>
+                                    <td class="next-month">7</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--September-->
+                </li>
+                <li>
+                    <div class="left-cal">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td colspan="1" class="last-month1"></td>
+                                    <td colspan="5">October 2017</td>
+                                    <td colspan="1" class="next-month1"></td>
+                                </tr>    
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>S</th>
+                                    <th>M</th>
+                                    <th>T</th>
+                                    <th>W</th>
+                                    <th>T</th>
+                                    <th>F</th>
+                                    <th>S</th>
+                                </tr>
+                                <tr>
+                                    <td class="last-month">24</td>
+                                    <td class="last-month">25</td>
+                                    <td class="last-month">26</td>
+                                    <td class="last-month">27</td>
+                                    <td class="last-month">28</td>
+                                    <td class="last-month">29</td>
+                                    <td class="last-month">30</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>                     
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                </tr>
+                                <tr>
+                                    <td>22</td>
+                                    <td>23</td> 
+                                    <td>24</td>
+                                    <td>25</td>
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                </tr>
+                                <tr>
+                                    <td>29</td>
+                                    <td>30</td>
+                                    <td>31</td>
+                                    <td class="next-month">4</td>
+                                    <td class="next-month">5</td>
+                                    <td class="next-month">6</td>
+                                    <td class="next-month">7</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--October-->
+                    <div class="right-cal">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Sun</th>
+                                    <th>Mon</th>
+                                    <th>Tue</th>
+                                    <th>Wed</th>
+                                    <th>Thu</th>
+                                    <th>Fri</th>
+                                    <th>Sat</th>
+                                </tr>
+                                <tr class="event-up">
+                                    <td class="last-month">24</td>
+                                    <td class="last-month">25</td>
+                                    <td class="last-month">26</td>
+                                    <td class="last-month">27</td>
+                                    <td class="last-month">28</td>
+                                    <td class="last-month">29</td>
+                                    <td class="last-month">30</td>
+                                </tr>
+                                <tr class="event-up">
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>  
+                                </tr>
+                                <tr class="event-down">
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>  
+                                </tr>
+                                <tr class="event-down">
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>22</td>
+                                    <td>23</td> 
+                                    <td>24</td>
+                                    <td>25</td>
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>29<span class="holiday">Daylight Saving Time ends</span></td>
+                                    <td>30</td>
+                                    <td>31</td>
+                                    <td class="next-month">4<span class="holiday">All Saints' Day</span></td>
+                                    <td class="next-month">5</td>
+                                    <td class="next-month">6</td>
+                                    <td class="next-month">7</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--October-->
+                </li>
+                <li>
+                    <div class="left-cal">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td colspan="1" class="last-month1"></td>
+                                    <td colspan="5">November 2017</td>
+                                    <td colspan="1" class="next-month1"></td>
+                                </tr>    
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>S</th>
+                                    <th>M</th>
+                                    <th>T</th>
+                                    <th>W</th>
+                                    <th>T</th>
+                                    <th>F</th>
+                                    <th>S</th>
+                                </tr>
+                                <tr>
+                                    <td class="last-month">29</td>
+                                    <td class="last-month">30</td>
+                                    <td class="last-month">31</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>                     
+                                </tr>
+                                <tr>
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                </tr>
+                                <tr>
+                                    <td>26</td>
+                                    <td>27</td> 
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td>30</td>
+                                    <td class="next-month">1</td>
+                                    <td class="next-month">2</td>
+                                </tr>
+                                <tr>
+                                    <td class="next-month">3</td>
+                                    <td class="next-month">4</td>
+                                    <td class="next-month">5</td>
+                                    <td class="next-month">6</td>
+                                    <td class="next-month">7</td>
+                                    <td class="next-month">8</td>
+                                    <td class="next-month">9</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--November-->
+                    <div class="right-cal">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Sun</th>
+                                    <th>Mon</th>
+                                    <th>Tue</th>
+                                    <th>Wed</th>
+                                    <th>Thu</th>
+                                    <th>Fri</th>
+                                    <th>Sat</th>
+                                </tr>
+                                <tr class="event-up">
+                                    <td class="last-month">29<span class="holiday">Daylight Saving Time ends</span></td>
+                                    <td class="last-month">30</td>
+                                    <td class="last-month">31</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4<span class="holiday">All Saints' Day</span></td>
+                                </tr>
+                                <tr class="event-up">
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>  
+                                </tr>
+                                <tr class="event-down">
+                                    <td>12<span class="holiday">Father's Day</span></td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>  
+                                </tr>
+                                <tr class="event-down">
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>26</td>
+                                    <td>27</td> 
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td>30</td>
+                                    <td class="next-month">1</td>
+                                    <td class="next-month">2</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td class="next-month">3</td>
+                                    <td class="next-month">4</td>
+                                    <td class="next-month">5</td>
+                                    <td class="next-month">6</td>
+                                    <td class="next-month">7</td>
+                                    <td class="next-month">8</td>
+                                    <td class="next-month">9</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--November-->
+                </li>
+                <li>
+                    <div class="left-cal">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td colspan="1" class="last-month1"></td>
+                                    <td colspan="5">December 2017</td>
+                                    <td colspan="1" class="next-month1"></td>
+                                </tr>    
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>S</th>
+                                    <th>M</th>
+                                    <th>T</th>
+                                    <th>W</th>
+                                    <th>T</th>
+                                    <th>F</th>
+                                    <th>S</th>
+                                </tr>
+                                <tr>
+                                    <td class="last-month">26</td>
+                                    <td class="last-month">27</td>
+                                    <td class="last-month">28</td>
+                                    <td class="last-month">29</td>
+                                    <td class="last-month">30</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>                                
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>              
+                                </tr>
+                                <tr>
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                </tr>
+                                <tr>
+                                    <td>24</td>
+                                    <td>25</td> 
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td>30</td>
+                                </tr>
+                                <tr>
+                                    <td>31</td>
+                                    <td class="next-month">1</td>
+                                    <td class="next-month">2</td>
+                                    <td class="next-month">3</td>
+                                    <td class="next-month">4</td>
+                                    <td class="next-month">5</td>
+                                    <td class="next-month">6</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--December-->
+                    <div class="right-cal">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Sun</th>
+                                    <th>Mon</th>
+                                    <th>Tue</th>
+                                    <th>Wed</th>
+                                    <th>Thu</th>
+                                    <th>Fri</th>
+                                    <th>Sat</th>
+                                </tr>
+                                <tr class="event-up">
+                                    <td class="last-month">26</td>
+                                    <td class="last-month">27</td>
+                                    <td class="last-month">28</td>
+                                    <td class="last-month">29</td>
+                                    <td class="last-month">30</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr class="event-up">
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>  
+                                </tr>
+                                <tr class="event-down">
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>  
+                                </tr>
+                                <tr class="event-down">
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>24<span class="holiday">Christmas Eve</span></td>
+                                    <td>25<span class="holiday">Christmas Day</span></td> 
+                                    <td>26<span class="holiday">Boxing Day</span></td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td>30</td>
+                                </tr>
+                                <tr class="event-down">
+                                    <td>31<span class="holiday">New Year's Eve</span></td>
+                                    <td class="next-month">1<span class="holiday">New Year's Day</span></td>
+                                    <td class="next-month">2</td>
+                                    <td class="next-month">3</td>
+                                    <td class="next-month">4</td>
+                                    <td class="next-month">5</td>
+                                    <td class="next-month">6<span class="holiday">Ephiphany</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--December-->
+                </li>
+            </ul>
+  
+        </div> <!--Container-->
+        
+        <script src="js/jquery-3.1.1.js"></script>
+        <script src="js/calendar.js"></script>
+    </body>
+</html>

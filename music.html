@@ -1,0 +1,63 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>DailyTool - Music</title>
+    <link rel="icon" type="png/jpg" href="imgs/feather_logo.jpg">
+    <link rel="stylesheet" href="css/music.css"> 
+
+</head>
+<body>
+    <div id="background"></div>
+    <div id="navbar-header">
+            <div id="navbar-left">
+                <img src="imgs/feather_logo.jpg" alt="feather">
+                <a class="navbar-brand" href="index.html">DailyTool</a>
+            </div>
+            <div id="navbar-right">
+                <ul>
+                    <li class="active">
+                        <a href="personal_space.html">Your Page</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+             </div>
+        </div>
+    <div id="player">
+        <img class="cover">
+        <div class="ctrl">
+            <div class="tag">
+                <strong class="title"></strong>
+                <span class="artist"></span>
+                <span class="album"></span>
+            </div>
+            <div class="control">
+                <div class="prev icon"></div>
+                <div class="playbutton icon"></div>
+                <div class="pause icon"></div>
+                <div class="next icon"></div>
+            </div>
+            <div class="progress">
+                <div class="p_slider">
+                    <div class="p_pace"></div>
+                </div>
+            </div>
+            <div class="volume">
+                <div class="time">0:00</div>
+                <div class="volume_right">
+                    <div class="mute_enable icon"></div>
+                    <div class="v_slider">
+                        <div class="v_pace"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul id="playlist"></ul>
+<script src="js/jquery-3.1.1.js"></script>   
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/music.js"></script>
+</body>
+</html>
