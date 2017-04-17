@@ -75,7 +75,7 @@ $(document).ready(function(){
             var content = $('#profile-content').val();
             $('#profile-content').hide();
             $('#profile').append('<div class="showprofile"></div>');
-            $('.showprofile').text(content).append(' <img class="change" src="<div>Icons made by <a href="http://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>">');
+            $('.showprofile').text(content).append(' <img class="change" src="../imgs/pen.png">');
         };   
         $('.change').on('click', function(){
             $('.showprofile').hide();
