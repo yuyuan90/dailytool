@@ -1,3 +1,17 @@
+<?php 
+    session_start();
+//if (!isset ($_SESSION["sess_user"])){header ("Location: index.php");}
+
+//  db connection
+$conn = new mysqli( 'localhost', 'root', '' ) or die (mysqli_error());
+// selecting DB from database
+$db = mysqli_select_db($conn, 'db_client_addressbook') or die("DB Error");
+//selecting Database
+// query & result
+$query = "SELECT * FROM clients";
+$result = mysqli_query( $conn, $query );
+
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
