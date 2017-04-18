@@ -81,7 +81,7 @@ body{
 #enlarge{
     margin: 0 auto;
     position: relative;
-    top: 5px;
+    top: 0px;
     width: 690px;
     height: 460px;
     box-sizing: border-box;
@@ -94,7 +94,7 @@ body{
     height: 446px;
 }
 #thumbnail{
-    margin: 15px auto;
+    margin: 10px auto;
     width: 840px;
     text-align: center;
     position: relative;
