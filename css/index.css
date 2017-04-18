@@ -181,6 +181,16 @@ ul.navbar-bottom li{
 .tab2 form, .tab2 button{
     visibility: hidden;
 }
+#notes{
+    width: 560px;
+    height: 25px;
+    font-size: 12px;
+    font-family: "Arial", sans-serif;
+    color: rgb(200, 76, 73);
+    position: absolute;
+    top: 0px;
+    left: -40px;
+}
 .login-pic{
     width: 220px;
     position: absolute;
