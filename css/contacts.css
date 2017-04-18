@@ -3,6 +3,8 @@ body {
     width: 100%;
     margin: 0;
     background-color: white;
+    overflow-x:hidden;
+    overflow-y:auto;
 }
 #navbar-header{
     width: 1500px;
