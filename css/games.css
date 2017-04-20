@@ -99,6 +99,7 @@ body{
     cursor: pointer;
     position: relative;
     margin-top:-4%;
+    display:inline-block;
     }
 .hexagon-in1 {
     overflow: hidden;
