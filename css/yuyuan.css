@@ -13,7 +13,6 @@ body{
     left: 0px;
     background: rgba(0, 0, 0, .7);
     text-align: center;
-    padding-left: 12%;
     font-family: "Arial", sans-serif;
     z-index: 1;
 }
@@ -23,6 +22,8 @@ body{
     display: flex;
     justify-content: center;
     align-items:center;
+    position:absolute;
+    left:10%;
 }
 #navbar-left img{
     position: relative;
@@ -43,7 +44,7 @@ body{
     height: 48px;
     position: absolute;
     top: 0px;
-    right: 12%;
+    right: 10%;
 }
 #navbar-right ul{
     list-style-type: none;
