@@ -23,7 +23,7 @@ body{
     justify-content: center;
     align-items:center;
     position:absolute;
-    left:10%;
+    left:8%;
 }
 #navbar-left img{
     position: relative;
@@ -44,7 +44,7 @@ body{
     height: 48px;
     position: absolute;
     top: 0px;
-    right: 10%;
+    right: 8%;
 }
 #navbar-right ul{
     list-style-type: none;
