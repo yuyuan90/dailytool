@@ -200,6 +200,11 @@ body{
     color: white;
     transform: rotate(-30deg);
 }
+@-moz-document url-prefix(){
+    .hexagon_left{
+        margin-right:325px;
+    }
+}
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
     .hexagon_left{
         margin-right:325px;
