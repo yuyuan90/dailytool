@@ -310,7 +310,7 @@ div#row4 .hexagon{
     left: 0;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
    /* box-shadow: -12px 0px 11px 6px rgb(255, 255, 255);*/
-    background: rgba(0,0,0,0.8);
+    background: rgb(0,0,0);
     background-image: url(../imgs/profile.png);
     cursor:pointer;
     background-position:top;
