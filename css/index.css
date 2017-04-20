@@ -40,6 +40,7 @@ html, body, .cover{
 #navbar-left a{
     text-decoration: none;
     font-size: 18px;
+    margin-left:10px;
     color: white;
 }
 #navbar-right{
@@ -51,11 +52,12 @@ html, body, .cover{
 }
 #navbar-right ul{
     list-style-type: none;
-    margin: 0px;
+    margin: 13px;
+    margin-top:0;
 }
 #navbar-right li{
     display: inline-block;
-    width: 80px;
+    width: 120px;
     height: 48px;
     box-sizing: border-box;
     padding-top: 11px;
