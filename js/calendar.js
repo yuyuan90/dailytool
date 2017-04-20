@@ -44,8 +44,8 @@ $(document).ready(function(){
                 'border-left': 0,
                 'border-top': 0
             });
-            $('#event-container').css({'left': parseInt(posX)+256,
-                                  'top': parseInt(posY)-271,
+            $('#event-container').css({'left': parseInt(posX)-245,
+                                  'top': parseInt(posY)-270,
                                   'display': 'block'});   
         }else{
             $('.triangle').css({
@@ -55,8 +55,8 @@ $(document).ready(function(){
                 'border-left': '1px solid rgba(153, 153, 153, 0.5)',
                 'border-top': '1px solid rgba(153, 153, 153, 0.5)'
             });
-            $('#event-container').css({'left': parseInt(posX)+256,
-                                  'top': parseInt(posY)-50,
+            $('#event-container').css({'left': parseInt(posX)-245,
+                                  'top': parseInt(posY)-46,
                                   'display': 'block'});
         };
            //change color upon clicked
@@ -103,8 +103,8 @@ $(document).ready(function(){
                 'border-left': 0,
                 'border-top': 0
             });
-            $('#edit-container').css({'left': parseInt(X)+256,
-                                  'top': parseInt(Y)-271,
+            $('#edit-container').css({'left': parseInt(X)-245,
+                                  'top': parseInt(Y)-270,
                                   'display': 'block'});
         }else{
             $('.triangle').css({
@@ -114,8 +114,8 @@ $(document).ready(function(){
                 'border-left': '1px solid rgba(153, 153, 153, 0.5)',
                 'border-top': '1px solid rgba(153, 153, 153, 0.5)'
             });
-            $('#edit-container').css({'left': parseInt(X)+256,
-                                  'top': parseInt(Y)-52,
+            $('#edit-container').css({'left': parseInt(X)-245,
+                                  'top': parseInt(Y)-46,
                                   'display': 'block'});
         };
         
