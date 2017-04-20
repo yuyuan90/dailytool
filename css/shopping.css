@@ -64,6 +64,7 @@ body{
     margin-left: -5px;
     box-sizing: border-box;
     padding-top: 11px;
+    margin-top:0;
 }
 #navbar-right li a{
     width: 120px;
