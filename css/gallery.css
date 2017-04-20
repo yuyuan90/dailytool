@@ -73,14 +73,15 @@ body{
 }
 #container{
     width: 1200px;
-    height: 600px;
+    height: 605px;
+    margin: 4% auto;
     position: relative;
-    margin: 60px auto;
+    padding-top: 1.5%;
+    box-sizing: border-box;
 }
 #enlarge{
     margin: 0 auto;
     position: relative;
-    top: 0px;
     width: 690px;
     height: 460px;
     box-sizing: border-box;
@@ -93,7 +94,7 @@ body{
     height: 446px;
 }
 #thumbnail{
-    margin: 10px auto;
+    margin: 1% auto;
     width: 840px;
     text-align: center;
     position: relative;
