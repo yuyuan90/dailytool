@@ -44,7 +44,7 @@ body{
     height: 48px;
     position: absolute;
     top: 0px;
-    right: 8%;
+    right: 18%;
 }
 #navbar-right ul{
     list-style-type: none;
@@ -61,13 +61,12 @@ body{
     box-sizing: border-box;
     padding-top: 11px;
     margin-top:0;
-    color: white;
 }
 #navbar-right li a{
     width: 120px;
     height: 48px;
     text-decoration: none;
-    color: white;
+    color: rgb(255,255,255);
 }
 #navbar-right li a:hover{
     cursor: pointer;
