@@ -48,11 +48,10 @@ html, body, .cover{
     height: 48px;
     position: absolute;
     top: 0;
-    right: 100px;
+    right: 150px;
 }
 #navbar-right ul{
     list-style-type: none;
-    margin: 13px;
     margin-top:0;
 }
 #navbar-right li{
