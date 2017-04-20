@@ -19,7 +19,6 @@ html, body, .cover{
     left: 0px;
     background: rgba(0, 0, 0,.7);
     text-align: center;
-    padding-left: 110px;
     font-family: "Arial", sans-serif;
     z-index: 1;
 }
@@ -29,6 +28,8 @@ html, body, .cover{
     display: flex;
     justify-content: center;
     align-items:center;
+    position:absolute;
+    left:8%;
 }
 #navbar-left img{
     position: relative;
@@ -49,7 +50,7 @@ html, body, .cover{
     height: 48px;
     position: absolute;
     top: 0px;
-    right: 200px;
+    right: 8%;
 }
 #navbar-right ul{
     list-style-type: none;
