@@ -8,7 +8,6 @@ body {
   overflow:hidden;
 }
 #background {
-
   background-size: cover;
   position: fixed;
   top: 0px;
@@ -25,7 +24,7 @@ body {
     left: 0px;
     background: rgba(0, 0, 0,.5);
     text-align: center;
-    padding-left: 110px;
+    padding-left: 12%;
     font-family: "Arial", sans-serif;
     z-index: 1;
 }
@@ -55,7 +54,7 @@ body {
     height: 48px;
     position: absolute;
     top: 0px;
-    right: 200px;
+    right: 12%;
 }
 #navbar-right ul{
     list-style-type: none;
