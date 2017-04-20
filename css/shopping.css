@@ -53,8 +53,6 @@ body{
 #navbar-right ul{
     list-style-type: none;
     margin-top: 0px;
-    width: 280px;
-    height: 48px;
 }
 #navbar-right li{
     display: inline-block;
