@@ -6,7 +6,7 @@ div.wholecontainer{
     width: 1350px;
     height: 100%;
     position: relative;
-    margin: 95px auto;
+    margin: 7% auto;
     box-sizing: border-box;
     background-color: rgb(46, 46, 46);
 }
@@ -280,7 +280,7 @@ div#row4 .hexagon{
 }
 
 #branch{
-    height: 500px;
+    height: 600px;
     width: 3px;
     position: absolute;
     top: -250px;
@@ -306,7 +306,7 @@ div#row4 .hexagon{
     height: 240px;
     border-radius: 100%;
     position: absolute;
-    top: 40.5%;
+    top: 42%;
     left: 0;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
    /* box-shadow: -12px 0px 11px 6px rgb(255, 255, 255);*/
