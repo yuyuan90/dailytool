@@ -9,7 +9,7 @@ body{
     overflow: hidden;
 }
 .games{
-    width:1000px;
+    width:1100px;
     height: 100%;
     display: flex;
     justify-content: space-between;
