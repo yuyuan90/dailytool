@@ -13,7 +13,7 @@ body{
     background:linear-gradient(to bottom right, #ddd6f3, #faaca8);
 }
 #navbar-header{
-    width: 1500px;
+    width: 100%;
     height: 48px;
     position: absolute;
     top: 0px;
@@ -51,7 +51,7 @@ body{
     height: 48px;
     position: absolute;
     top: 0px;
-    left: 960px;
+    right: 110px;
 }
 #navbar-right ul{
     width: 280px;
