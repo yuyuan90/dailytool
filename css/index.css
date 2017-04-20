@@ -43,11 +43,11 @@ html, body, .cover{
     color: white;
 }
 #navbar-right{
-    width: 250px;
+    width: 280px;
     height: 48px;
     position: absolute;
     top: 0;
-    right: 110px;
+    right: 100px;
 }
 #navbar-right ul{
     list-style-type: none;
