@@ -200,3 +200,9 @@ body{
     color: white;
     transform: rotate(-30deg);
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+    .hexagon_left{
+        margin-right:325px;
+    }
+}
+    
