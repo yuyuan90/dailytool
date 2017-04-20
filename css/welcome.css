@@ -11,7 +11,7 @@ body {
     left: 0px;
     background: rgba(0, 0, 0,.7);
     text-align: center;
-    padding-left: 110px;
+    padding-left: 12%;
     font-family: "Arial", sans-serif;
     z-index: 1;
 }
