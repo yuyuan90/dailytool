@@ -41,7 +41,6 @@ body {
     width: 35px;
     height: 35px;
     top: -5px;
-    position: relative;
     margin-top: 10px;
     margin-right: 10px;
 }
@@ -52,17 +51,16 @@ body {
     color: white;
 }
 #navbar-right{
-    width: 320px;
+    width: 280px;
     height: 48px;
     position: absolute;
     top: 0px;
-    right: 110px;
+    right: 200px;
 }
 #navbar-right ul{
-    width: 280px;
-    height: 48px;
     list-style-type: none;
-    margin: 0px auto;
+    margin: 13px auto;
+    margin-top: 0px;
 }
 #navbar-right li{
     display: inline-block;
@@ -74,7 +72,6 @@ body {
     margin-left: -5px;
     box-sizing: border-box;
     padding-top: 11px;
-    
 }
 #navbar-right li a{
     width: 120px;
