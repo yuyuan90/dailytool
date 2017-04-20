@@ -3,7 +3,8 @@ body{
     height: 100%;
     margin: 0;
     background: rgb(46, 46,46);
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y:auto;
 }
 #navbar-header{
     width: 100%;
@@ -74,9 +75,9 @@ body{
 #container{
     width: 1200px;
     height: 605px;
-    margin: 4% auto;
+    margin: 5% auto;
     position: relative;
-    padding-top: 1.5%;
+    padding-top: 2%;
     box-sizing: border-box;
 }
 #enlarge{
@@ -94,7 +95,7 @@ body{
     height: 446px;
 }
 #thumbnail{
-    margin: 1% auto;
+    margin: 2% auto;
     width: 840px;
     text-align: center;
     position: relative;
