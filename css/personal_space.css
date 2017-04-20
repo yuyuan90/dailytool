@@ -245,7 +245,7 @@ div#row4 .hexagon{
 }
 #bee1{
     position: absolute;
-    top: 8%;
+    top: 6%;
     left: 35px;
     z-index: 5;
     background-image: url(../imgs/bee-icon-1.png);
@@ -254,7 +254,7 @@ div#row4 .hexagon{
 }
 #bee2{
     position: absolute;
-    top: 2%;
+    top: 0;
     left: 130px;
     z-index: 2;
     background-image: url(../imgs/bee-icon-2.png);
@@ -263,7 +263,7 @@ div#row4 .hexagon{
 }
 #bee3{
     position: absolute;
-    top: -3%;
+    top: -5%;
     left: 45px;
     z-index: 3;
     background-image: url(../imgs/bee-icon-3.png);
@@ -272,7 +272,7 @@ div#row4 .hexagon{
 }
 #bee4{
     position: absolute;
-    top: -7%;
+    top: -9%;
     left: 110px;
     z-index: 1;
     background-image: url(../imgs/bee-icon-4.png);
