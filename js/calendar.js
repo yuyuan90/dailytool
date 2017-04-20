@@ -47,9 +47,7 @@ $(document).ready(function(){
                 'border-left': 0,
                 'border-top': 0
             });
-            $('#event-container').css({'left': parseInt(posX)-winX,
-                                  'top': parseInt(posY)-winY1,
-                                  'display': 'block'});   
+            $('#event-container').css({'left': parseInt(posX)-winX, 'top': parseInt(posY)-winY1, 'display': 'block'});   
         }else{
             $('.triangle').css({
                 'bottom':194,
@@ -58,9 +56,7 @@ $(document).ready(function(){
                 'border-left': '1px solid rgba(153, 153, 153, 0.5)',
                 'border-top': '1px solid rgba(153, 153, 153, 0.5)'
             });
-            $('#event-container').css({'left': parseInt(posX)-winX,
-                                  'top': parseInt(posY)-winY2,
-                                  'display': 'block'});
+            $('#event-container').css({'left': parseInt(posX)-winX, 'top': parseInt(posY)-winY2, 'display': 'block'});
         };
            //change color upon clicked
             $(this).css('background', 'rgba(255, 228, 1, .8)');
@@ -97,6 +93,9 @@ $(document).ready(function(){
         //get the coordinates
         var X = e.pageX; 
         var Y = e.pageY;
+        var winX = parseInt($(window).width())* .18;
+        var winY1 = parseInt($(window).height())* .40;
+        var winY2 = parseInt($(window).height())* .06;
         //show event window below or above
         if($(this).parents('tr').hasClass('event-down')){
             $('.triangle').css({
@@ -106,9 +105,7 @@ $(document).ready(function(){
                 'border-left': 0,
                 'border-top': 0
             });
-            $('#edit-container').css({'left': parseInt(X)-245,
-                                  'top': parseInt(Y)-270,
-                                  'display': 'block'});
+            $('#edit-container').css({'left': parseInt(posX)-winX, 'top': parseInt(posY)-winY1, 'display': 'block'});
         }else{
             $('.triangle').css({
                 'bottom':194,
@@ -117,9 +114,7 @@ $(document).ready(function(){
                 'border-left': '1px solid rgba(153, 153, 153, 0.5)',
                 'border-top': '1px solid rgba(153, 153, 153, 0.5)'
             });
-            $('#edit-container').css({'left': parseInt(X)-245,
-                                  'top': parseInt(Y)-46,
-                                  'display': 'block'});
+            $('#edit-container').css({'left': parseInt(posX)-winX, 'top': parseInt(posY)-winY2, 'display': 'block'});
         };
         
         $('#edit-container').find('input.event').val($(this).text());
