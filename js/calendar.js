@@ -33,6 +33,9 @@ $(document).ready(function(){
         //get the coordinates
         var posX = e.pageX; 
         var posY = e.pageY;
+        var winX = parseInt($(window).width())* .18;
+        var winY1 = parseInt($(window).height())* .40;
+        var winY2 = parseInt($(window).height())* .06;
         //show event window below or above
         
         if($('#edit-container').css('display') == 'none'){
@@ -44,8 +47,8 @@ $(document).ready(function(){
                 'border-left': 0,
                 'border-top': 0
             });
-            $('#event-container').css({'left': parseInt(posX)-245,
-                                  'top': parseInt(posY)-270,
+            $('#event-container').css({'left': parseInt(posX)-winX,
+                                  'top': parseInt(posY)-winY1,
                                   'display': 'block'});   
         }else{
             $('.triangle').css({
@@ -55,8 +58,8 @@ $(document).ready(function(){
                 'border-left': '1px solid rgba(153, 153, 153, 0.5)',
                 'border-top': '1px solid rgba(153, 153, 153, 0.5)'
             });
-            $('#event-container').css({'left': parseInt(posX)-245,
-                                  'top': parseInt(posY)-46,
+            $('#event-container').css({'left': parseInt(posX)-winX,
+                                  'top': parseInt(posY)-winY2,
                                   'display': 'block'});
         };
            //change color upon clicked
