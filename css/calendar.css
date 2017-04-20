@@ -61,6 +61,7 @@ body{
     box-sizing: border-box;
     padding-top: 11px;
     margin-top:0;
+    color: white;
 }
 #navbar-right li a{
     width: 120px;
