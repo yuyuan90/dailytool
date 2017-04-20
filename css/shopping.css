@@ -10,14 +10,14 @@ body{
     margin: 0 auto;
 }
 #navbar-header{
-    width: 1500px;
+    width: 100%;
     height: 48px;
     position: fixed;
     top: 0px;
     left: 0px;
     background: rgba(0, 0, 0,.7);
     text-align: center;
-    padding-left: 90px;
+    padding-left: 110px;
     font-family: "Arial", sans-serif;
     z-index: 1;
 }
@@ -48,7 +48,7 @@ body{
     height: 48px;
     position: absolute;
     top: 0px;
-    left: 960px;
+    right: 110px;
 }
 #navbar-right ul{
     width: 280px;
