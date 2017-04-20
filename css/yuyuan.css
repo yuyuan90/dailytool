@@ -43,7 +43,7 @@ body{
     height: 48px;
     position: absolute;
     top: 0px;
-    right: 200px;
+    right: 20%;
 }
 #navbar-right ul{
     list-style-type: none;
