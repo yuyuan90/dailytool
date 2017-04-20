@@ -124,7 +124,7 @@ ul.navbar-bottom li{
 }
 .cover-text{
     text-align: center;
-    margin: 15% auto;
+    margin: 18% auto;
     color: white;
     font-family: sans-serif;
 }
@@ -136,6 +136,7 @@ ul.navbar-bottom li{
 .cover-text p{
     font-family: sans-serif;
     font-size: 25px;
+    margin-top:10px;
 }
 #left-button, #right-button{
     width: 110px;
