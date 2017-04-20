@@ -44,7 +44,7 @@ $(document).ready(function(){
                 'border-left': 0,
                 'border-top': 0
             });
-            $('#event-container').css({'left': parseInt(posX)-256,
+            $('#event-container').css({'left': parseInt(posX)+256,
                                   'top': parseInt(posY)-271,
                                   'display': 'block'});   
         }else{
@@ -55,7 +55,7 @@ $(document).ready(function(){
                 'border-left': '1px solid rgba(153, 153, 153, 0.5)',
                 'border-top': '1px solid rgba(153, 153, 153, 0.5)'
             });
-            $('#event-container').css({'left': parseInt(posX)-256,
+            $('#event-container').css({'left': parseInt(posX)+256,
                                   'top': parseInt(posY)-50,
                                   'display': 'block'});
         };
@@ -103,7 +103,7 @@ $(document).ready(function(){
                 'border-left': 0,
                 'border-top': 0
             });
-            $('#edit-container').css({'left': parseInt(X)-256,
+            $('#edit-container').css({'left': parseInt(X)+256,
                                   'top': parseInt(Y)-271,
                                   'display': 'block'});
         }else{
@@ -114,7 +114,7 @@ $(document).ready(function(){
                 'border-left': '1px solid rgba(153, 153, 153, 0.5)',
                 'border-top': '1px solid rgba(153, 153, 153, 0.5)'
             });
-            $('#edit-container').css({'left': parseInt(X)-256,
+            $('#edit-container').css({'left': parseInt(X)+256,
                                   'top': parseInt(Y)-52,
                                   'display': 'block'});
         };
