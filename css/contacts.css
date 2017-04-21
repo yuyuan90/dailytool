@@ -83,6 +83,7 @@ body {
 }
 #table-striped{
     width: 90%;
+    min-width:922px;
     height: auto;
     margin: 100px auto;
     border-collapse: collapse;
