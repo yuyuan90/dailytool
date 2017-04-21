@@ -11,7 +11,7 @@ body{
     position:fixed;
     bottom: 0;
     right: 0;
-    background: -webkit-gradient(linear, left bottom, from(#ddd6f3), to(#faaca8));
+    background: -webkit-gradient(linear, right bottom, from(#ddd6f3), to(#faaca8));
     background: -webkit-linear-gradient(#ddd6f3, #faaca8); 
     background: -moz-linear-gradient(#ddd6f3, #faaca8); 
     background: -ms-linear-gradient(#ddd6f3, #faaca8); 
