@@ -282,7 +282,7 @@ div#row4 .hexagon{
     background:rgb(255, 255, 255);
 }
 #hive p{
-    position: absolute;
+    position: relative;
     width: 100px;
     height: 60px;
     top: 0px;
