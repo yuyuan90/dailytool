@@ -285,8 +285,8 @@ div#row4 .hexagon{
     position: relative;
     width: 100px;
     height: 60px;
-    top: 0px;
-    left: 20px;
+    top: 1%;
+    left: 9%;
     color: rgb(255, 255, 255); 
     line-height: 1;
     font-family: 'Damion', cursive;
@@ -313,7 +313,6 @@ div#row4 .hexagon{
     cursor:pointer;
     background-position:top;
     z-index: 1;
- 
 }
 #profile{
     width: 240px;
