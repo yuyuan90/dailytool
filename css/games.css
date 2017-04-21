@@ -157,7 +157,12 @@ body{
             transform: rotate(-60deg);
     }
 .hexagon_left{
-    margin-right: 20%;
+    position:absolute;
+    left:0;
+}
+.hexagon_right{
+    position:absolute;
+    right:0;
 }
 #bee_game{
     background-image: url(../imgs/bee_test1.png);
