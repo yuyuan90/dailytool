@@ -3,7 +3,7 @@ body{
     background-color: rgb(46, 46, 46)
 }
 div.wholecontainer{
-    width: 1350px;
+    width: 96%;
     height: 100%;
     position: relative;
     margin: 7% auto;
