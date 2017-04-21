@@ -121,12 +121,12 @@ div.wholecontainer{
     }
 #row1{
     position: absolute;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     
 }
 div#row1 .hexagon{
     margin-left: 109px;
-    margin-right: 140px;
+    margin-right: 135px;
     display: inline-block;
 }
 #row2{
