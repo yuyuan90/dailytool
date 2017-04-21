@@ -293,7 +293,11 @@ div#row4 .hexagon{
     font-weight: bolder;
     font-size: 31px;
     letter-spacing: 2.2px;
-    transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+       -moz-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg); 
+         -o-transform: rotate(-30deg);
+            transform: rotate(-30deg); 
 } 
 #hive{
     width: 240px;
