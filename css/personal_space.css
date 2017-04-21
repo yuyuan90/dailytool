@@ -384,7 +384,7 @@ footer{
     position: absolute;
     bottom: 0px;
     left: 0px;
-    background: rgb(46, 46, 46);
+    background: rgba(0, 0, 0,.7);
     text-align: center;
 }
 ul.navbar-bottom{
