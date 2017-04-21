@@ -5,6 +5,7 @@ body {
 }
 #navbar-header{
     width: 100%;
+    min-width:1024px;
     height: 48px;
     position: absolute;
     top: 0px;
@@ -21,7 +22,7 @@ body {
     justify-content: center;
     align-items:center;
     position:absolute;
-    left:8%;
+    left:110px;
 }
 #navbar-left img{
     position: relative;
@@ -42,7 +43,7 @@ body {
     height: 48px;
     position: absolute;
     top: 0px;
-    right: 8%;
+    right: 110px;
 }
 #navbar-right ul{
     list-style-type: none;
