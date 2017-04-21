@@ -94,7 +94,7 @@ body{
     height: 180px;
     position:absolute;
     top: 52px;
-    left: 3%;
+    left: 4%;
 }
 #title{
     font-weight: bold;
@@ -129,7 +129,7 @@ th, td{
 }
 .right-cal{
     width: 78%;
-    min-width: 750px;
+    min-width: 780px;
     height: auto;
     position:absolute;
     top: 22px;
@@ -140,14 +140,14 @@ th, td{
 }
 .right-cal th{
     width: 14%;
-    min-width:80px;
+    min-width:120px;
     height: 28px;
     text-align: left;
     vertical-align:middle; 
 }
 .right-cal td{
     width: 14%;
-    min-width:80px;
+    min-width:120px;
     height: 85px;
     border: 1px solid #999;
     text-align: left;
@@ -254,7 +254,8 @@ th, td{
 }
 .holiday{
     display: inline-block;
-    width: 142px;
+    width: 14%;
+    min-width:120px;
     height: 18px;
     font-size: 12px;
     margin-bottom: 1px;
