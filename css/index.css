@@ -124,7 +124,7 @@ html, body, .cover{
     display: inline-block;
     text-decoration: none;
     box-sizing: border-box;
-    padding-top: 6px;
+    padding-top: 10px;
     background: rgb(153, 175, 240);
 }
 #leftModal{
