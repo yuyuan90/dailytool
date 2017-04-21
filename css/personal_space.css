@@ -40,7 +40,7 @@ div.wholecontainer{
     right:0;
     text-decoration: none;
     font-size: 18px;
-    margin-top:0;
+    margin-top:-2px;
     color: black;
 }
 #navbar-right{
@@ -125,7 +125,7 @@ div.wholecontainer{
 }
 div#row1 .hexagon{
     margin-left: 110px;
-    margin-right: 137px;
+    margin-right: 138px;
     display: inline-block;
 }
 #row2{
@@ -143,7 +143,7 @@ div#row2 .hexagon{
 }
 div#row3 .hexagon{
     margin-left: 110px;
-    margin-right: -139px; 
+    margin-right: -138px; 
     display: inline-block
 }
 #row4{
@@ -151,7 +151,7 @@ div#row3 .hexagon{
     top: 240px;
 }
 div#row4 .hexagon{
-    margin-left: 246px;
+    margin-left: 248px;
     display: inline-block;
 }
 #row11{
