@@ -107,9 +107,7 @@ div.wholecontainer{
     }
 /*honeycomb structure*/
 #honeycomb{
-    width:1150px;
-    display: flex;
-    flex-direction: column;
+    width: 1120px;
     margin: 0 auto;
     position: relative;
     left: 130px;
@@ -121,44 +119,40 @@ div.wholecontainer{
     margin: 0 0 0 -80px;
     }
 #row1{
-    display: flex;
-    justify-content: flex-start;
     position: relative;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     
 }
 div#row1 .hexagon{
-    margin-left: 120px;
-    margin-right: 140px;
+    margin-left: 109px;
+    margin-right: 139px;
+    display: inline-block;
 }
 #row2{
-    display: flex;
-    justify-content: flex-start;
     position: relative;
     top: -75px;
 }
 div#row2 .hexagon{
-    margin-left: -20px;
+    margin-left: -30px;
+    display: inline-block;
     
 }
 #row3{
-    display: flex;
-    justify-content: flex-start;
     position: relative;
-    top: -145px;
+    top: -147px;
 }
 div#row3 .hexagon{
-    margin-left: 120px;
-    margin-right: -140px;   
+    margin-left: 109px;
+    margin-right: -139px; 
+    display: inline-block
 }
 #row4{
-    display: flex;
-    justify-content: flex-start;
     position: relative;
-    top: -215px;
+    top: -219px;
 }
 div#row4 .hexagon{
-    margin-left: 260px;  
+    margin-left: 249px;
+    display: inline-block;
 }
 #row11{
     background-image: url(../imgs/calendar1.png);
