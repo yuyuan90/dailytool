@@ -87,9 +87,6 @@ html, body, .cover{
     width: 100%;
     min-width:1024px;
     height: 100%;
-    background: rgba(255,255,255,.1);
-    background-size: cover;
-    z-index: -2;
 }
 .cover-text{
     width: 100%;
