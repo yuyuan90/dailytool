@@ -79,6 +79,7 @@ body{
 #months{
     list-style-type: none;
     width: 92%;
+    min-width: 942px;
     height: 600px;
     position: relative;
     margin: 0 auto;
