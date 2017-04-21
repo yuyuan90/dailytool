@@ -140,13 +140,13 @@ th, td{
     width: 100%;
 }
 .right-cal th{
-    width: 12%;
+    width: 10%;
     height: 28px;
     text-align: left;
     vertical-align:middle; 
 }
 .right-cal td{
-    width: 12%;
+    width: 10%;
     height: 85px;
     border: 1px solid #999;
     text-align: left;
