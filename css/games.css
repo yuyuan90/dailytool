@@ -9,7 +9,7 @@ body{
     overflow: hidden;
 }
 .games{
-    width:80%;
+    width:85%;
     height: 100%;
     position: relative;
     margin: 0 auto;
@@ -94,7 +94,7 @@ body{
             transform: rotate(120deg);
     cursor: pointer;
     position: relative;
-    margin-top:-4%;
+    margin-top:-6%;
     display:inline-block;
     }
 .hexagon-in1 {
@@ -157,7 +157,7 @@ body{
             transform: rotate(-60deg);
     }
 .hexagon_left{
-    margin-right: 28%;
+    margin-right: 20%;
 }
 #bee_game{
     background-image: url(../imgs/bee_test1.png);
