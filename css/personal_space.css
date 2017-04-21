@@ -121,7 +121,7 @@ div.wholecontainer{
     }
 #row1{
     position: absolute;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
     
 }
 div#row1 .hexagon{
@@ -144,7 +144,7 @@ div#row2 .hexagon{
 }
 div#row3 .hexagon{
     margin-left: 110px;
-    margin-right: -138px; 
+    margin-right: -139px; 
     display: inline-block
 }
 #row4{
@@ -152,7 +152,7 @@ div#row3 .hexagon{
     top: 240px;
 }
 div#row4 .hexagon{
-    margin-left: 248px;
+    margin-left: 246px;
     display: inline-block;
 }
 #row11{
