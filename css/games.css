@@ -10,12 +10,14 @@ body{
 }
 .games{
     width:85%;
+    min-width:870.5px;
     height: 550;
     position: relative;
     margin: 5% auto;
 }
 #navbar-header{
     width: 100%;
+    min-width:1024px;
     height: 48px;
     position: absolute;
     top: 0px;
@@ -30,7 +32,7 @@ body{
     height: 48px;
     position:relative;
     top:0;
-    left:8%;
+    left:110px;
 }
 #navbar-left img{
     position: absolute;
@@ -52,7 +54,7 @@ body{
     height: 48px;
     position: absolute;
     top: 0px;
-    right: 8%;
+    right: 110px;
 }
 #navbar-right ul{
     list-style-type: none;
