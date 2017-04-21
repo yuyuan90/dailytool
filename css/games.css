@@ -186,10 +186,11 @@ body{
     top: 55%;
     left: 40%;
     color: white;
-    -moz-transform: rotate(-30deg);
     -webkit-transform: rotate(-30deg);
-    -o-transform: rotate(-30deg);
-    -ms-transform: rotate(-30deg);   
+       -moz-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg); 
+         -o-transform: rotate(-30deg);
+            transform: rotate(-30deg);    
 }
 .game_name2 {
     font-family: 'Monoton', cursive;
@@ -200,7 +201,11 @@ body{
     top: 55%;
     left: 40%;
     color: white;
-    transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+       -moz-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg); 
+         -o-transform: rotate(-30deg);
+            transform: rotate(-30deg); 
 }
 @-moz-document url-prefix(){
     .hexagon_left{
