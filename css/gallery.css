@@ -8,6 +8,7 @@ body{
 }
 #navbar-header{
     width: 100%;
+    min-width:1024px;
     height: 48px;
     position: absolute;
     top: 0px;
@@ -22,7 +23,7 @@ body{
     height: 48px;
     position:relative;
     top:0;
-    left:8%;
+    left: 110px;
 }
 #navbar-left img{
     position: absolute;
@@ -44,7 +45,7 @@ body{
     height: 48px;
     position: absolute;
     top: 0px;
-    right: 8%;
+    right: 110px;
 }
 #navbar-right ul{
     list-style-type: none;
@@ -73,6 +74,7 @@ body{
 }
 #container{
     width: 90%;
+    min-width:922px;
     height: 605px;
     margin: 5% auto;
     position: relative;
