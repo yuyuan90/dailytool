@@ -134,20 +134,20 @@ th, td{
     height: auto;
     position:absolute;
     top: 22px;
-    left: 190px; 
+    left: 185px; 
 }
 .right-cal table{
     border-collapse: collapse;
     width: 100%;
 }
 .right-cal th{
-    width: 10%;
+    width: 11%;
     height: 28px;
     text-align: left;
     vertical-align:middle; 
 }
 .right-cal td{
-    width: 10%;
+    width: 11%;
     height: 85px;
     border: 1px solid #999;
     text-align: left;
