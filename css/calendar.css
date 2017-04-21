@@ -78,7 +78,7 @@ body{
 }
 #months{
     list-style-type: none;
-    width: 96%;
+    width: 90%;
     height: 600px;
     position: relative;
     margin: 0 auto;
@@ -94,7 +94,7 @@ body{
     height: 180px;
     position:absolute;
     top: 52px;
-    left: 1%;
+    left: 0;
 }
 #title{
     font-weight: bold;
@@ -128,14 +128,15 @@ th, td{
     color: #222;
 }
 .right-cal{
-    width: 78%;
+    width: 86%;
     height: auto;
     position:absolute;
     top: 22px;
-    left: 15%; 
+    right: 0; 
 }
 .right-cal table{
     border-collapse: collapse;
+    width: 100%;
 }
 .right-cal th{
     width: 14%;
@@ -251,7 +252,7 @@ th, td{
 }
 .holiday{
     display: inline-block;
-    width: 14%;
+    width: 100%;
     height: 18px;
     font-size: 12px;
     margin-bottom: 1px;
