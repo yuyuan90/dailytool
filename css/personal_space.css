@@ -5,8 +5,9 @@ body{
     background-color: rgb(46, 46, 46)
 }
 div.wholecontainer{
-    width: 96%;
-    height: 100%;
+    width: 100%;
+    min-width: 1536px;
+    height: 520px;
     position: relative;
     margin: 7% auto;
     box-sizing: border-box;
@@ -108,11 +109,12 @@ div.wholecontainer{
     }
 /*honeycomb structure*/
 #honeycomb{
-    width: 1120px;
+    width: 85%;
+    min-width: 1110px;
     height: 490px;
     margin: 0 auto;
     position: relative;
-    left: 130px;
+    left: 120px;
     top: -500px;
 }
 .hexagon1 {
@@ -230,10 +232,10 @@ div#row4 .hexagon{
 }
 /*hive*/
 #hive-container{
-    width: 250px;
+    width: 240px;
     height: 550px;
     position: relative;
-    left: 35px;
+    left: 2%;
 }
 .bee{
     width: 100px;
