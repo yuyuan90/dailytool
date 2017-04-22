@@ -86,7 +86,7 @@ footer{
     min-width: 1024px;
     height: 48px;
     position: absolute;
-    bottom: 0px;
+    bottom: 0px !important;
     left:0;
     background: rgb(46, 46, 46);
     text-align: center;
