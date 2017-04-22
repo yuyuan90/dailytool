@@ -7,7 +7,7 @@ body{
 }
 div.wholecontainer{
     width: 98%;
-    min-width: 1000px;
+    min-width: 1300px;
     height: 530px;
     position: relative;
     margin: 7% auto;
@@ -17,7 +17,7 @@ div.wholecontainer{
 }
 #navbar-header{
     width: 100%;
-    min-width:1286px;
+    min-width: 1327px;
     height: 48px;
     position: absolute;
     top: 0px;
