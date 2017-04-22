@@ -7,7 +7,7 @@ body{
 }
 div.wholecontainer{
     width: 100%;
-    min-width: 1300px;
+    min-width: 1400px;
     height: 530px;
     position: relative;
     margin: 7% auto;
@@ -17,7 +17,7 @@ div.wholecontainer{
 }
 #navbar-header{
     width: 100%;
-    min-width:1300px;
+    min-width:1400px;
     height: 48px;
     position: absolute;
     top: 0px;
@@ -113,7 +113,7 @@ div.wholecontainer{
 /*honeycomb structure*/
 #honeycomb{
     width: 85%;
-    min-width: 1300px;
+    min-width: 1400px;
     margin-left: 200px;
     height: 490px;
     position: relative;
@@ -389,7 +389,7 @@ div.showprofile{
 }
 footer{
     width: 100%;
-    min-width: 1300px;
+    min-width: 1400px;
     height: 48px;
     position: absolute;
     bottom: 0px;
