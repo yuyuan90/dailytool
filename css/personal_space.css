@@ -14,7 +14,8 @@ div.wholecontainer{
     background-color: rgb(46, 46, 46);
 }
 #navbar-header{
-    min-width: 100%;
+    width: 100%;
+    min-width:1536px;
     height: 48px;
     position: absolute;
     top: 0px;
@@ -29,7 +30,7 @@ div.wholecontainer{
     height: 48px;
     position:relative;
     top:0;
-    left:8%;
+    left:110px;
 }
 #navbar-left img{
     position: absolute;
@@ -51,7 +52,7 @@ div.wholecontainer{
     height: 48px;
     position: absolute;
     top: 0px;
-    right: 8%;
+    right: 110px;
 }
 #navbar-right ul{
     list-style-type: none;
