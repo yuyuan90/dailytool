@@ -2,7 +2,8 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
-    overflow:hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 #navbar-header{
     width: 100%;
