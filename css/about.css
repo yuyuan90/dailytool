@@ -17,6 +17,8 @@ html, body{
     position: relative;
     top: 0;
     left: 0;
+    overflow-x:hidden;
+    overflow:auto;
 }
 #navbar-header{
     width: 100%;
