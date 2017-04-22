@@ -294,20 +294,18 @@ span.eye-open{
 }
 footer{
     width: 100%;
-    min-width:1024px;
+    min-width: 1024px;
     height: 48px;
     position: absolute;
     bottom: 0px;
-    left: 0px;
     background: rgb(46, 46, 46);
     text-align: center;
 }
 ul.navbar-bottom{
+    position: relative;
     width: 960px;
     height: 48px;
     list-style-type: none;
-    display: flex;
-    justify-content: center;
     padding-right: 55px;
     margin: 0 auto;
     box-sizing: border-box;
