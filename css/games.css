@@ -6,7 +6,7 @@ body{
     z-index: -10;
     background-position:top;
     background-size: cover;
-    overflow: auto;
+    overflow: hidden;
 }
 #page-container{
     width: 100%;
@@ -237,6 +237,7 @@ footer{
     height: 48px;
     position: absolute;
     bottom: 0px;
+    left:0;
     background: rgb(46, 46, 46);
     text-align: center;
 }
