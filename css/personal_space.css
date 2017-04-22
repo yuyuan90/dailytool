@@ -15,7 +15,7 @@ div.wholecontainer{
 }
 #navbar-header{
     width: 100%;
-    min-width:1536px;
+    min-width:1400px;
     height: 48px;
     position: absolute;
     top: 0px;
@@ -388,7 +388,7 @@ div.showprofile{
 }
 footer{
     width: 100%;
-    min-width: 1536px;
+    min-width: 1400px;
     height: 48px;
     position: absolute;
     bottom: 0px;
