@@ -294,6 +294,7 @@ span.eye-open{
 }
 footer{
     width: 100%;
+    min-width:1024px;
     height: 48px;
     position: absolute;
     bottom: 0px;
