@@ -88,8 +88,6 @@ footer{
     position: absolute;
     bottom: 0px;
     left:0;
-    right:0;
-    margin-top:-48px;
     background: rgb(46, 46, 46);
     text-align: center;
 }
