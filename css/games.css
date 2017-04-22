@@ -6,7 +6,7 @@ body{
     z-index: -10;
     background-position:top;
     background-size: cover;
-    overflow: hidden;
+    overflow: auto;
 }
 #page-container{
     width: 100%;
