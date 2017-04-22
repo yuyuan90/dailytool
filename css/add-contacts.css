@@ -154,11 +154,11 @@ textarea{
 }
 @-moz-document url-prefix(){
     textarea{
-        width: 95%;;
+        width: 95%;
     }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     textarea{
-        width: 95%;;
+        width: 95%;
     }
 }
