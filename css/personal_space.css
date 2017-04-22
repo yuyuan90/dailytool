@@ -6,7 +6,7 @@ body{
 }
 div.wholecontainer{
     width: 100%;
-    min-width: 1536px;
+    min-width: 1400px;
     height: 520px;
     position: relative;
     margin: 7% auto;
