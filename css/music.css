@@ -183,8 +183,9 @@ div.time{
   color: rgb(76, 77, 77);  
 }
 .volume_right{
-    display: flex;
-    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    width: 150px;
 }
 div.v_slider {
   display: inline-block;
