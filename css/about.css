@@ -10,8 +10,6 @@ html, body{
     height: 100%;
     min-height:100%;
     margin: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
 }
 #container{
     width: 100%;
@@ -19,6 +17,8 @@ html, body{
     position: relative;
     top: 0;
     left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 #navbar-header{
     width: 100%;
