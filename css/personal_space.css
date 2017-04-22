@@ -111,7 +111,7 @@ div.wholecontainer{
     }
 /*honeycomb structure*/
 #honeycomb{
-    width: 1300px;
+    width: 1110px;
     margin-left: 200px;
     height: 490px;
     position: relative;
@@ -387,7 +387,7 @@ div.showprofile{
 }
 footer{
     width: 100%;
-    min-width: 1024px;
+    min-width: 1300px;
     height: 48px;
     position: absolute;
     bottom: 0px;
