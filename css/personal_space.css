@@ -392,7 +392,7 @@ footer{
     position: absolute;
     bottom: 0px;
     left:0;
-    background: rgb(46, 46, 46);
+    background: rgb(255, 255, 255);
     text-align: center;
 }
 ul.navbar-bottom{
@@ -410,7 +410,7 @@ ul.navbar-bottom li{
     height: 48px;
     font-family: "Arial", sans-serif;
     font-size: 15px;
-    color: white;
+    color: black;
     letter-spacing: 0.1px;
     margin-top: 0;
     box-sizing: border-box;
