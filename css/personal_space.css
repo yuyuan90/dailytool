@@ -388,6 +388,7 @@ div.showprofile{
 }
 footer{
     width: 100%;
+    min-width: 1536px;
     height: 48px;
     position: absolute;
     bottom: 0px;
