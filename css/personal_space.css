@@ -7,7 +7,7 @@ body{
 }
 div.wholecontainer{
     width: 100%;
-    min-width: 1400px;
+    min-width: 1350px;
     height: 530px;
     position: relative;
     margin: 7% auto;
@@ -17,7 +17,7 @@ div.wholecontainer{
 }
 #navbar-header{
     width: 100%;
-    min-width:1400px;
+    min-width:1350px;
     height: 48px;
     position: absolute;
     top: 0px;
@@ -113,7 +113,7 @@ div.wholecontainer{
 /*honeycomb structure*/
 #honeycomb{
     width: 85%;
-    min-width: 1400px;
+    min-width: 1350px;
     margin-left: 200px;
     height: 490px;
     position: relative;
@@ -389,7 +389,7 @@ div.showprofile{
 }
 footer{
     width: 100%;
-    min-width: 1400px;
+    min-width: 1350px;
     height: 48px;
     position: absolute;
     bottom: 0px;
@@ -398,11 +398,10 @@ footer{
     text-align: center;
 }
 ul.navbar-bottom{
+    position: relative;
     width: 960px;
     height: 48px;
     list-style-type: none;
-    display: flex;
-    justify-content: center;
     padding-right: 55px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -417,7 +416,7 @@ ul.navbar-bottom li{
     letter-spacing: 0.1px;
     margin-top: 0;
     box-sizing: border-box;
-    padding-top: 15px;
+    padding-top: 14px;
 }
 .navbar-bottom a, .bottom-link:hover{
     color: rgb(153, 175, 240);
