@@ -85,8 +85,8 @@ footer{
     width: 100%;
     min-width: 1024px;
     height: 48px;
-    position: absolute;
-    bottom: 0px !important;
+    position: absolute !important;
+    bottom: 0px;
     left:0;
     background: rgb(46, 46, 46);
     text-align: center;
