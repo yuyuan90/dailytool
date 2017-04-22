@@ -6,8 +6,8 @@ body{
     background-color: rgb(46, 46, 46)
 }
 div.wholecontainer{
-    width: 100%;
-    min-width: 1350px;
+    width: 98%;
+    min-width: 1320px;
     height: 530px;
     position: relative;
     margin: 7% auto;
@@ -17,7 +17,7 @@ div.wholecontainer{
 }
 #navbar-header{
     width: 100%;
-    min-width:1350px;
+    min-width:1320px;
     height: 48px;
     position: absolute;
     top: 0px;
@@ -112,8 +112,7 @@ div.wholecontainer{
     }
 /*honeycomb structure*/
 #honeycomb{
-    width: 85%;
-    min-width: 1350px;
+    width: 1320px;
     margin-left: 200px;
     height: 490px;
     position: relative;
@@ -389,7 +388,7 @@ div.showprofile{
 }
 footer{
     width: 100%;
-    min-width: 1350px;
+    min-width: 1320px;
     height: 48px;
     position: absolute;
     bottom: 0px;
