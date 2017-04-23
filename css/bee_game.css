@@ -102,7 +102,7 @@ body{
     height: 50px;
     border-radius: 100%;
     position: absolute;
-    margin: 30px 80%;
+    margin: 35px 80%;
     background-color: rgba(103, 172, 214, 0.9);
     box-shadow: 1px 1px 2px 2px #808080;
 }
