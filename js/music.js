@@ -11,11 +11,11 @@ $(document).ready(function(){
     var audio; 
     var playlist = [
 {
-title: 'Midnight Waltz',
-artist: 'Adam Hurst',
-album: 'Ritual',
-cover:'imgs/ritual.jpg',
-mp3: 'music/Adam Hurst - Midnight Waltz.mp3'
+title: '三線の花',
+artist: 'Begin',
+album: '三線の花',
+cover:'../imgs/begin.jpg',
+mp3: '../music/Begin - 三線の花.mp3'
 },
 {
 title: 'Dans Les Rues de Ma Jeunesse',
