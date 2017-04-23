@@ -14,8 +14,8 @@ $(document).ready(function(){
 title: '三線の花',
 artist: 'Begin',
 album: '三線の花',
-cover:'../imgs/begin.jpg',
-mp3: '../music/Begin - 三線の花.mp3'
+cover:'imgs/begin.jpg',
+mp3: 'music/Begin - 三線の花.mp3'
 },
 {
 title: 'Dans Les Rues de Ma Jeunesse',
