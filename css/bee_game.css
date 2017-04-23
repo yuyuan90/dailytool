@@ -69,17 +69,17 @@ body{
     color: rgb(255, 255,255);
     box-shadow: 1px 1px 2px 2px #808080;
     text-align: center;
-    margin: 1% 5%;
+    margin: 5px 5%;
 }
 .info{
     width: 115px;;
     height: 115px;
     border-radius: 100%;
     position: absolute;
-    margin: 3% 35%;
+    margin: 10px 35%;
     font-size: 18px;
     box-sizing: border-box;
-    padding-top: 10px;
+    padding-top: 15px;
     line-height: 1.5;
     font-weight: bold;
     background-color: rgba(0, 21,71,0.9);
@@ -92,7 +92,7 @@ body{
     height: 80px;
     border-radius: 100%;
     position: absolute;
-    margin: 5% 60%;
+    margin: 25px 60%;
     background-color: rgba(255, 255, 255,0.9);
     box-shadow: 1px 1px 2px 2px #808080;
 }
@@ -101,7 +101,7 @@ body{
     height: 50px;
     border-radius: 100%;
     position: absolute;
-    margin: 7% 80%;
+    margin: 35px 80%;
     background-color: rgba(103, 172, 214, 0.9);
     box-shadow: 1px 1px 2px 2px #808080;
 }
