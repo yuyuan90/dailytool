@@ -6,6 +6,7 @@ body{
     z-index: -10;
     background-position:top;
     background-size: cover;
+    background-attachment: fixed;
     overflow: hidden;
 }
 #page-container{
