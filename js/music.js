@@ -230,16 +230,6 @@ $('.v_slider').slider({max:1, min:0, step:0.01, value: volume, slide:function(ev
         showDuration();
        $('.p_pace').css('width', ui.value + '%');
 }});  
-
-    
-
-    
-    
-    
-    
-    
-  
-  
-  
+ 
 })
     
