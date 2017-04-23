@@ -33,7 +33,7 @@ $(document).ready(function(){
         //get the coordinates
         var posX = e.pageX; 
         var posY = e.pageY;
-        var winX = parseInt($(window).width())* .18;
+        var winX = parseInt($(window).width())* .13;
         var winY1 = parseInt($(window).height())* .40;
         var winY2 = parseInt($(window).height())* .06;
         //show event window below or above
