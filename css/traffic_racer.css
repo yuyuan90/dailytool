@@ -5,21 +5,27 @@ body {
     background-color: rgb(237,191,67);
     font-family: "Arial", sans-serif;
 }
+#page-container{
+    height: 600px;
+    width: 800px;
+    position: relative;
+    margin: 2% auto;
+}
 #score_div{
-    width: 300px;;
+    width: 300px;
     height: 300px;
     border-radius: 100%;
     position: absolute;
-    margin-top: 10%;
-    margin-left: 15%;
-    font-size: 25px;
+    top: 120px;
+    left: 0;
+    font-size: 24px;
     background-color: rgba(0, 21,71,0.9);
     color: rgb(255, 255,255);
     box-shadow: 0px 0px 2px 2px #808080;
     text-align: center;
 }
 #help{
-	text-align: center;
+    text-align: center;
     font-weight: bold;
     margin: 32% auto 22%;
 }
@@ -38,10 +44,10 @@ body {
 }
 
 #container{
-    position: relative;
-    height: 90vh;
-    width: 25%;
-    margin: 2% 50%;
+    position: absolute;
+    height: 595px;
+    width: 343px;
+    right: 0;
     background-color: rgb(135, 130, 124);
     overflow: hidden;
 }
