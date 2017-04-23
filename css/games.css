@@ -15,8 +15,8 @@ body{
     position: relative;
 }
 .games{
-    width:85%;
-    min-width:870.5px;
+    width:80%;
+    min-width:820px;
     height: 520px;
     position: relative;
     margin: 5% auto;
