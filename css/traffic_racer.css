@@ -4,7 +4,6 @@ body {
     margin: 0;
     background-color: rgb(237,191,67);
     font-family: "Arial", sans-serif;
-    overflow: hidden;
 }
 #page-container{
     height: 600px;
