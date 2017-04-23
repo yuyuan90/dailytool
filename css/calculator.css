@@ -17,7 +17,6 @@ body{
     background: -ms-linear-gradient(top, #ddd6f3, #faaca8); 
     background: -o-linear-gradient(top, #ddd6f3, #faaca8);
     background: linear-gradient(to bottom right, #ddd6f3, #faaca8);
-    background-attachment:fixed;
     overflow-x: hidden;
     overflow-y:auto;
 }
