@@ -44,7 +44,7 @@ $(document).ready(function(){
                 'border-left': 0,
                 'border-top': 0
             });
-            $('#event-container').css({'left': parseInt(posX)-175, 'top': parseInt(posY)-255, 'display': 'block'});   
+            $('#event-container').css({'left': parseInt(posX)-175, 'top': parseInt(posY)-253, 'display': 'block'});   
         }else{
             $('.triangle').css({
                 'bottom':194,
@@ -53,7 +53,7 @@ $(document).ready(function(){
                 'border-left': '1px solid rgba(153, 153, 153, 0.5)',
                 'border-top': '1px solid rgba(153, 153, 153, 0.5)'
             });
-            $('#event-container').css({'left': parseInt(posX)-175, 'top': parseInt(posY)-35, 'display': 'block'});
+            $('#event-container').css({'left': parseInt(posX)-175, 'top': parseInt(posY)-33, 'display': 'block'});
         };
            //change color upon clicked
             $(this).css('background', 'rgba(255, 228, 1, .8)');
