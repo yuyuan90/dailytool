@@ -76,7 +76,7 @@ body{
     height: 115px;
     border-radius: 100%;
     position: absolute;
-    margin: 2% 35%;
+    margin: 3% 35%;
     font-size: 18px;
     box-sizing: border-box;
     padding-top: 10px;
@@ -92,7 +92,7 @@ body{
     height: 80px;
     border-radius: 100%;
     position: absolute;
-    margin: 3% 60%;
+    margin: 5% 60%;
     background-color: rgba(255, 255, 255,0.9);
     box-shadow: 1px 1px 2px 2px #808080;
 }
@@ -101,7 +101,7 @@ body{
     height: 50px;
     border-radius: 100%;
     position: absolute;
-    margin: 4% 80%;
+    margin: 7% 80%;
     background-color: rgba(103, 172, 214, 0.9);
     box-shadow: 1px 1px 2px 2px #808080;
 }
