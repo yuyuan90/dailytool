@@ -6,13 +6,18 @@ body{
     background-color: rgb(237,191,67);
     font-family: "Arial", sans-serif;
 }
+#page-container{
+    width: 95%;
+    height: 650px;
+    position: relative;
+    margin: 10px auto;
+}
 .container {
     border: 1px white solid;
     width: 90%;
     height: 450px;
     position: relative;
     margin: 5px auto;
-    background-color: aliceblue;
     overflow: hidden;
     background-color: rgb(135, 130, 124);
     
