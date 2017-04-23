@@ -102,7 +102,7 @@ $(document).ready(function(){
                 'border-left': 0,
                 'border-top': 0
             });
-            $('#edit-container').css({'left': parseInt(posX)-winX, 'top': parseInt(posY)-winY1, 'display': 'block'});
+            $('#edit-container').css({'left': parseInt(posX)-175, 'top': parseInt(posY)-253, 'display': 'block'});
         }else{
             $('.triangle').css({
                 'bottom':194,
@@ -111,7 +111,7 @@ $(document).ready(function(){
                 'border-left': '1px solid rgba(153, 153, 153, 0.5)',
                 'border-top': '1px solid rgba(153, 153, 153, 0.5)'
             });
-            $('#edit-container').css({'left': parseInt(posX)-winX, 'top': parseInt(posY)-winY2, 'display': 'block'});
+            $('#edit-container').css({'left': parseInt(posX)-175, 'top': parseInt(posY)-33, 'display': 'block'});
         };
         
         $('#edit-container').find('input.event').val($(this).text());
