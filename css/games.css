@@ -16,8 +16,8 @@ html, body{
     overflow-y: auto;
 }
 .games{
-    width:779px;
-    height: 520px;
+    width: 960px;
+    height: 540px;
     margin: 5% auto;
 }
 #navbar-header{
