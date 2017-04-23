@@ -8,8 +8,8 @@ body{
     background-size: cover;
 }
 .games{
-    width:78%;
-    min-width:799px;
+    width:76%;
+    min-width:779px;
     height: 520px;
     position: relative;
     margin: 5% auto;
@@ -218,7 +218,7 @@ footer{
     width: 100%;
     min-width: 1024px;
     height: 48px;
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     left:0;
     right:0;
