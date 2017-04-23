@@ -220,16 +220,7 @@ body{
          -o-transform: rotate(-30deg);
             transform: rotate(-30deg); 
 }
-@-moz-document url-prefix(){
-    .hexagon_left{
-        margin-right:325px;
-    }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
-    .hexagon_left{
-        margin-right:325px;
-    }
-}
+
 footer{
     width: 100%;
     min-width: 1024px;
