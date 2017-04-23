@@ -3,9 +3,6 @@ body{
     height: 100%;
     margin: 0;
     overflow: hidden;
-    background: url("../imgs/fog.gif") no-repeat center center fixed;
-    z-index: -10;
-    background-size: cover;
 }
 #page-container{
     width: 100%;
@@ -14,6 +11,9 @@ body{
     top:0;
     left:0;
     position: absolute;
+    background: url("../imgs/fog.gif") no-repeat center center fixed;
+    z-index: -10;
+    background-size: cover;
 }
 .games{
     width:75%;
