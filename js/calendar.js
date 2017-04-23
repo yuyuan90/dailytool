@@ -88,8 +88,8 @@ $(document).ready(function(){
         var current_event = $(this);
         current_event.parent().css('background', 'rgba(255, 228, 1, .1)');
         //get the coordinates
-        var X = e.pageX; 
-        var Y = e.pageY;
+        var x = e.pageX; 
+        var y = e.pageY;
         
         //show event window below or above
         if($(this).parents('tr').hasClass('event-down')){
@@ -100,7 +100,7 @@ $(document).ready(function(){
                 'border-left': 0,
                 'border-top': 0
             });
-            $('#edit-container').css({'left': parseInt(X)-175, 'top': parseInt(Y)-253, 'display': 'block'});
+            $('#edit-container').css({'left': parseInt(x)-175, 'top': parseInt(y)-253, 'display': 'block'});
         }else{
             $('.triangle').css({
                 'bottom':194,
@@ -109,7 +109,7 @@ $(document).ready(function(){
                 'border-left': '1px solid rgba(153, 153, 153, 0.5)',
                 'border-top': '1px solid rgba(153, 153, 153, 0.5)'
             });
-            $('#edit-container').css({'left': parseInt(X)-175, 'top': parseInt(Y)-33, 'display': 'block'});
+            $('#edit-container').css({'left': parseInt(x)-175, 'top': parseInt(y)-33, 'display': 'block'});
         };
         
         $('#edit-container').find('input.event').val($(this).text());
