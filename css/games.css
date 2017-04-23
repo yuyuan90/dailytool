@@ -18,9 +18,11 @@ body{
     min-height:100%;
     margin: 0;
     position: relative;
+    overflow-y: auto;
 }
 .games{
-    width:960px;
+    width:76%;
+    min-width:960px;
     height: 540px;
     position: relative;
     margin: 5% auto;
