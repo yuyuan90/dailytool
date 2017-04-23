@@ -72,11 +72,11 @@ body{
     margin: 1% 5%;
 }
 .info{
-    width: 120px;;
-    height: 120px;
+    width: 115px;;
+    height: 115px;
     border-radius: 100%;
     position: absolute;
-    margin: 2% 35%;
+    margin: 1% 35%;
     font-size: 18px;
     box-sizing: border-box;
     padding-top: 10px;
@@ -92,7 +92,7 @@ body{
     height: 80px;
     border-radius: 100%;
     position: absolute;
-    margin: 3% 60%;
+    margin: 1% 60%;
     background-color: rgba(255, 255, 255,0.9);
     box-shadow: 1px 1px 2px 2px #808080;
 }
@@ -101,7 +101,7 @@ body{
     height: 50px;
     border-radius: 100%;
     position: absolute;
-    margin: 4% 80%;
+    margin: 1% 80%;
     background-color: rgba(103, 172, 214, 0.9);
     box-shadow: 1px 1px 2px 2px #808080;
 }
