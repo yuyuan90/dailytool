@@ -64,7 +64,7 @@ body{
     font-size: 23px;
     box-sizing: border-box;
     padding-top: 15px;
-    line-height: 1.2;
+    line-height: 1;
     font-weight: bold;
     background-color: rgba(0, 21,71,0.9);
     color: rgb(255, 255,255);
@@ -93,7 +93,7 @@ body{
     height: 80px;
     border-radius: 100%;
     position: absolute;
-    margin: 20px 60%;
+    margin: 25px 60%;
     background-color: rgba(255, 255, 255,0.9);
     box-shadow: 1px 1px 2px 2px #808080;
 }
@@ -102,7 +102,7 @@ body{
     height: 50px;
     border-radius: 100%;
     position: absolute;
-    margin: 25px 80%;
+    margin: 30px 80%;
     background-color: rgba(103, 172, 214, 0.9);
     box-shadow: 1px 1px 2px 2px #808080;
 }
