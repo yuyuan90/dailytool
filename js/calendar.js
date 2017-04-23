@@ -90,9 +90,7 @@ $(document).ready(function(){
         //get the coordinates
         var X = e.pageX; 
         var Y = e.pageY;
-        var winX = parseInt($(window).width())* .18;
-        var winY1 = parseInt($(window).height())* .40;
-        var winY2 = parseInt($(window).height())* .06;
+        
         //show event window below or above
         if($(this).parents('tr').hasClass('event-down')){
             $('.triangle').css({
@@ -102,7 +100,7 @@ $(document).ready(function(){
                 'border-left': 0,
                 'border-top': 0
             });
-            $('#edit-container').css({'left': parseInt(posX)-175, 'top': parseInt(posY)-253, 'display': 'block'});
+            $('#edit-container').css({'left': parseInt(X)-175, 'top': parseInt(Y)-253, 'display': 'block'});
         }else{
             $('.triangle').css({
                 'bottom':194,
@@ -111,7 +109,7 @@ $(document).ready(function(){
                 'border-left': '1px solid rgba(153, 153, 153, 0.5)',
                 'border-top': '1px solid rgba(153, 153, 153, 0.5)'
             });
-            $('#edit-container').css({'left': parseInt(posX)-175, 'top': parseInt(posY)-33, 'display': 'block'});
+            $('#edit-container').css({'left': parseInt(X)-175, 'top': parseInt(Y)-33, 'display': 'block'});
         };
         
         $('#edit-container').find('input.event').val($(this).text());
