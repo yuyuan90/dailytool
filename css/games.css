@@ -12,6 +12,8 @@ html, body{
     top: 0;
     left: 0;
     position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 .games{
     width:779px;
