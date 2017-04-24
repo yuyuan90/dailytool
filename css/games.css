@@ -7,8 +7,7 @@ body{
     position: absolute;
     top: 0;
     left:0;
-    background: url(../imgs/fog.gif) no-repeat center center;
-    z-index: -10;
+    background: url(../imgs/fog.gif) no-repeat center center fixed;
     background-size: cover;
 }
 #page-container{
