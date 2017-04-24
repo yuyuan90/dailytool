@@ -128,7 +128,7 @@ textarea{
     position: relative;
     top: 360px;
     height: 30px;
-    width: 80%;
+    width: 100%;
 }
 .bottom-button a, .bottom-button button{
     width: 120px;
