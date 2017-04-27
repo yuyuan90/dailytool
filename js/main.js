@@ -93,16 +93,14 @@ $(document).ready(function(){
             data: {key:'00a244191418467d86a61037172704', q:city},
             dataType: 'json',
             success: function(response){
-            if(response.message != null){
-                $('#temp_des').html(response.error.message);
-            }else{
                 $('#temp').html(parseInt(response.current.temp_c)+ '℃');
-                $('#temp_des').html(response.current.condition.text);
-                
-            }; 
-        }          
+                $('#temp_des').html(response.current.condition.text); 
+            },
+            error: function(){
+            $('#temp_des').html('City not found');
+        }
+            
         });   
 });
-    
-    
+       
 });
