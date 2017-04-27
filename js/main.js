@@ -98,6 +98,7 @@ $(document).ready(function(){
             },
             error: function(){
             $('#temp_des').html('City not found');
+            $('#temp').html('');
         }
             
         });   
