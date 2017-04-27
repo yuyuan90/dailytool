@@ -86,7 +86,6 @@ $(document).ready(function(){
 //ajax weather
     $('#temp_button').click(function(){ 
         var city = $('#city').val();
-        var myrequest = new XMLHttpRequest();
         $.ajax({
             url: 'https://api.apixu.com/v1/current.json',
             method:'GET',
