@@ -94,16 +94,13 @@ $(document).ready(function(){
             dataType: 'json',
             success: function(response){
             if(response.message != null){
-                $('#temp_des').html(response.message);
+                $('#temp_des').html(response.error.message);
             }else{
                 $('#temp').html(parseInt(response.current.temp_c)+ '℃');
                 $('#temp_des').html(response.current.condition.text);
                 
             }; 
-        },
-            error: function(err){
-                alert(err);
-            }           
+        }          
         });   
 });
     
