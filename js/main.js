@@ -91,7 +91,7 @@ $(document).ready(function(){
             url: 'https://api.apixu.com/v1/current.json',
             method:'GET',
             data: {key:'00a244191418467d86a61037172704', q:city},
-            dataType: 'JSON',
+            dataType: 'json',
             success: function(response){
             if(response.message != null){
                 $('#temp_des').html(response.message);
