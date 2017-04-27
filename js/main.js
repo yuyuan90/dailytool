@@ -88,24 +88,23 @@ $(document).ready(function(){
         var city = $('#city').val();
         var myrequest = new XMLHttpRequest();
         $.ajax({
-            url: 'http://api.openweathermap.org/data/2.5/weather',
+            url: 'https://api.apixu.com/v1/current.json',
             method:'GET',
-            data: {q:city, appid:'ae102049bb07d93949503c8a4d187129'},
-            dataType: 'JSONP',
+            data: {key:'00a244191418467d86a61037172704', q:city},
+            dataType: 'JSON',
             success: function(response){
             if(response.message != null){
                 $('#temp_des').html(response.message);
             }else{
-                $('#temp').html(parseInt(response.main.temp-273.19)+ '℃');
-                $('#temp_des').html(response.weather[0].main);
+                $('#temp').html(parseInt(response.current.temp_c)+ '℃');
+                $('#temp_des').html(response.current.condition.text);
                 
-            };
+            }; 
         },
             error: function(err){
                 alert(err);
-            }     
-        });
-        
+            }           
+        });   
 });
     
     
