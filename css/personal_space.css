@@ -381,6 +381,7 @@ div.showprofile{
     font-size: 16px;
     font-weight: bold;
     text-align: center;
+    font-family: "Arial", sans-serif;
 }
 #weather input{
     box-sizing: border-box;
@@ -396,6 +397,7 @@ div.showprofile{
     padding-bottom: 1px;
     outline: none;
     z-index: 1;
+    font-family: "Arial", sans-serif;
 }
 #weather button{
     width: 36px;
@@ -411,6 +413,7 @@ div.showprofile{
     border: none;
     z-index: 1;
     outline: none;
+    font-family: "Arial", sans-serif;
 }
 #temp_des{
     display: inline-block;
@@ -422,4 +425,5 @@ div.showprofile{
     left: 15px;
     line-height: 12px;
     font-size: 11px;
+    font-family: "Arial", sans-serif;
 }
