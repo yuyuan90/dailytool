@@ -93,7 +93,7 @@ $(document).ready(function(){
             data: {key:'00a244191418467d86a61037172704', q:city},
             dataType: 'json',
             success: function(response){
-                $('#temp').html(parseInt(response.current.temp_c)+ '℃');
+                $('#temp').html(parseInt(response.current.temp_c)+'&deg;'+'C');
                 $('#temp_des').html(response.current.condition.text); 
             },
             error: function(){
