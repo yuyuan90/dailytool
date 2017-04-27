@@ -83,7 +83,29 @@ $(document).ready(function(){
         });
     });
 
-
+//ajax weather
+    $('#temp_button').click(function(){ 
+        var city = $('#city').val();
+        var myrequest = new XMLHttpRequest();
+        $.ajax({
+            url: 'http://api.openweathermap.org/data/2.5/weather',
+            method:'GET',
+            data: {q:city, appid:'ae102049bb07d93949503c8a4d187129'},
+            dataType: 'JSON',
+            success: function(response){
+            if(response.message != null){
+                $('#temp_des').html(response.message);
+            }else{
+                $('#temp').html(parseInt(response.main.temp-273.19)+ '℃');
+                $('#temp_des').html(response.weather[0].description);  
+            }; 
+        },
+            error: function(err){
+                console.log(err);
+            }  
+        });
+        
+});
     
     
 });
