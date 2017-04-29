@@ -102,5 +102,32 @@ $(document).ready(function(){
             
         });   
 });
+    
+    //timer
+    function getTime(){
+        var today = new Date();
+    var hours = today.getHours();
+    var mins = today.getMinutes();
+    var sec = today.getSeconds();
+    if(sec<10){
+        sec = '0'+sec; 
+       };
+    if(mins<10){
+        mins = '0'+mins; 
+       };
+    if(hours<10){
+        hours = '0'+hours; 
+       };
+    if(hours>12){
+        $('#ampm').html('PM');
+    }else{
+        $('#ampm').html('AM');
+    };
+    var clock = hours +':' + mins + ':' +sec;
+    $('#time').html(clock);
+        
+    };
+    getTime();
+    setInterval(getTime, 1000);
        
 });
