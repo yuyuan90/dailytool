@@ -240,12 +240,12 @@ div#row4 .hexagon{
     width: 100px;
     height: 100px;
 }
-#bee1{
+#bee2{
     position: absolute;
-    top: 6%;
-    left: 35px;
-    z-index: 5;
-    background-image: url(../imgs/bee-icon-1.png);
+    top: 0;
+    left: 120px;
+    z-index: 2;
+    background-image: url(../imgs/bee-icon-2.png);
     background-repeat: no-repeat;
     background-position: center;
 }
