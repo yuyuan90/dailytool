@@ -431,8 +431,8 @@ div.showprofile{
     width: 200px;
     height: 52px;
     position: absolute;
-    top: -85px;
-    right: 80px;
+    top:-30px;
+    right: 130px;
 }
 #time, #ampm{
     letter-spacing: 1px;
