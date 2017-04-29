@@ -249,15 +249,6 @@ div#row4 .hexagon{
     background-repeat: no-repeat;
     background-position: center;
 }
-#bee2{
-    position: absolute;
-    top: 0;
-    left: 130px;
-    z-index: 2;
-    background-image: url(../imgs/bee-icon-2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
 #bee3{
     position: absolute;
     top: -5%;
