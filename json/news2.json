@@ -1,3 +1,3 @@
 {
-    "blog": "<h2>CIMC is committed to building the world's most compact LNG receiving terminal in flammable and explosive environments</h2><br><img src='imgs/hk_news1_1.jpg'><p>(Shenzhen Gas LNG Receiving Terminal Project Overview)</p><br><h4>Gas LNG Receiving Terminal Project</h4><br><img src='imgs/hk_news1_1.jpg'><p>(Shenzhen Gas LNG Receiving Terminal Project Overview)</p>"
+    "blog": "<h2>CIMC is committed to building the world's most compact LNG receiving terminal in flammable and explosive environments</h2><br><img src='imgs/hk_news1_1.jpg'><p class='image_caption'>(Shenzhen Gas LNG Receiving Terminal Project Overview)</p><br><h4>Gas LNG Receiving Terminal Project</h4><br><img src='imgs/hk_news1_1.jpg' class='image_caption'><p>(Shenzhen Gas LNG Receiving Terminal Project Overview)</p>"
   }
