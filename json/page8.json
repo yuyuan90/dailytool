@@ -1,8 +1,8 @@
 {
-    "meeting-list": "Nike, Weekly Meeting Minutes_W01.v01",
-    "meeting-date" : "20171113",
-    "created-date": "20171114",
-    "modified-date":"20171115","Author":"Jack Quan",
-    "Approval Status":" Approved",
+    "meeting_list": "Nike, Weekly Meeting Minutes_W01.v01",
+    "meeting_date" : "20171113",
+    "created_date": "20171114",
+    "modified_date":"20171115","Author":"Jack Quan",
+    "approval_status":" Approved",
     
   }
