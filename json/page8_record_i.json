@@ -1,12 +1,12 @@
 {
     "data": {
         "meeting": [
-            {"name":"Sentra"},
-            {"time":"Maxima"},
+            {"name":"Nike relocation"},
+            {"time":"06/14/2017 2:14 PM"},
             {"location":"Pudong District, Shanghai"}
         ],
         "next_meeting": [
-            {"time":"Taurus"},
+            {"time":"06/18/2017 2:14 PM"},
             {"location":"Huangpu District, Shanghai"}
         ],
         "comment": [
