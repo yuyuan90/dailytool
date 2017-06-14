@@ -1,13 +1,12 @@
 {
-    "data": {
-        "meeting": [
-            {"name":"Nike internal meeting", "time":"06/15/2017 1:50 PM", "location":"Huangpu District, Shanghai"}
+    "cars": {
+        "Nissan": [
+            {"model":"Sentra", "doors":4},
+            {"model":"Maxima", "doors":4}
         ],
-        "next_meeting": [
-            {"time":"06/15/2017 1:50 PM", "location":"Huangpu District, Shanghai"},
-        ],
-      "comment": [
-            {"Designer Mike came back, no need to change. by Jone"},
+        "Ford": [
+            {"model":"Taurus", "doors":4},
+            {"model":"Escort", "doors":4}
         ]
     }
 }
