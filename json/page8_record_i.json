@@ -1,12 +1,13 @@
 {
-    "cars": {
-        "Nissan": [
-            {"model":"Sentra", "doors":4},
-            {"model":"Maxima", "doors":4}
+    "data": {
+        "meeting": [
+            {"name":"Sentra"},
+            {"time":"Maxima"},
+            {"location":"Pudong District, Shanghai"}
         ],
-        "Ford": [
-            {"model":"Taurus", "doors":4},
-            {"model":"Escort", "doors":4}
+        "next_meeting": [
+            {"time":"Taurus"},
+            {"location":"Huangpu District, Shanghai"}
         ]
     }
 }
