@@ -1,13 +1,13 @@
 {
     "data": {
         "meeting": [
-            {"name":"Nike relocation"},
-            {"time":"06/14/2017 2:14 PM"},
-            {"location":"Nike relocation"}
+            {"m_name":"Nike relocation"},
+            {"m_time":"06/14/2017 2:14 PM"},
+            {"m_location":"Nike relocation"}
         ],
         "next_meeting": [
-            {"time":"06/18/2017 2:14 PM"},
-            {"location":"Huangpu District Shanghai"}
+            {"nm_time":"06/18/2017 2:14 PM"},
+            {"nm_location":"Huangpu District Shanghai"}
         ],
         "comment": [
             {"text":"Designer Mike came back, no need to change."}
