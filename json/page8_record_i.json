@@ -3,11 +3,11 @@
         "meeting": [
             {"name":"Nike relocation"},
             {"time":"06/14/2017 2:14 PM"},
-            {"location":"Pudong District, Shanghai"}
+            {"location":"Pudong District Shanghai"}
         ],
         "next_meeting": [
             {"time":"06/18/2017 2:14 PM"},
-            {"location":"Huangpu District, Shanghai"}
+            {"location":"Huangpu District Shanghai"}
         ],
         "comment": [
             {"text":"Designer Mike came back, no need to change."}
