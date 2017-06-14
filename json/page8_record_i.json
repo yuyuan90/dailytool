@@ -8,6 +8,9 @@
         "next_meeting": [
             {"time":"Taurus"},
             {"location":"Huangpu District, Shanghai"}
+        ],
+        "comment": [
+            {"text":"Designer Mike came back, no need to change."}
         ]
     }
 }
