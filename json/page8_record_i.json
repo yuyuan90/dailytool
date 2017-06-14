@@ -3,9 +3,9 @@
         "meeting": [
             {"name":"Nike relocation"},
             {"time":"06/14/2017 2:14 PM"},
-            {"location":"Pudong District Shanghai"}
+            {"location":"Nike relocation"}
         ],
-        "nextmeeting": [
+        "next_meeting": [
             {"time":"06/18/2017 2:14 PM"},
             {"location":"Huangpu District Shanghai"}
         ],
