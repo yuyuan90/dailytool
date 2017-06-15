@@ -1,0 +1,41 @@
+ {
+    "name": "Tiger Nixon",
+    "company":"Nike",
+    "role": "System Architect"
+  },
+  {
+    "name": "Garrett Winters",
+    "company":"Nike",
+    "role": "Accountant"
+  },
+  {
+    "name": "Ashton Cox",
+    "company":"Nike",
+    "role": "Junior Technical Author"
+  },
+  {
+    "name": "Cedric Kelly",
+    "company":"Nike",
+    "role": "Senior Javascript Developer"
+  },
+  {
+    "name": "Airi Satou",
+    "company":"Nike",
+    "role": "Accountant"
+  },
+  {
+    "name": "Brielle Williamson",
+    "company":"Nike",
+    "role": "Integration Specialist"
+  },
+  {
+    "name": "Herrod Chandler",
+    "company":"Nike",
+    "role": "Sales Assistant"
+  },
+  {
+    "name": "Rhona Davidson",
+    "company":"Nike",
+    "role": "Integration Specialist"
+  }
+  ]
