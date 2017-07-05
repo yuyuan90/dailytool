@@ -1,41 +1,49 @@
  [
   {
-    "name": "Tiger Nixon",
+    "name": "Diger Nixon",
+   "email":"123@gh.com",
     "company":"Nike",
     "role": "System Architect"
   },
   {
     "name": "Garrett Winters",
+   "email":"abc@gh.com",
     "company":"Nike",
     "role": "Accountant"
   },
   {
     "name": "Ashton Cox",
+   "email":"wer@gh.com",
     "company":"Nike",
     "role": "Junior Technical Author"
   },
   {
     "name": "Cedric Kelly",
+   "email":"xccx@gh.com",
     "company":"Nike",
     "role": "Senior Javascript Developer"
   },
   {
     "name": "Airi Satou",
+   "email":"vnv@gh.com",
     "company":"Nike",
     "role": "Accountant"
   },
   {
     "name": "Brielle Williamson",
+   "email":"bnmb@gh.com",
     "company":"Nike",
     "role": "Integration Specialist"
   },
   {
     "name": "Herrod Chandler",
+   "email":"nm@gh.com",
     "company":"Nike",
     "role": "Sales Assistant"
   },
   {
     "name": "Rhona Davidson",
+   "email":"tiyut@gh.com",
     "company":"Nike",
     "role": "Integration Specialist"
   }
